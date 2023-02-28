@@ -1,0 +1,19 @@
+.navbar_img{
+  width: 230px;
+}
+
+.banner_sub_title{
+  font-size: 25px !important;
+}
+.servciesBoxes_p{
+  word-break: keep-all;
+  font-size: 18px;
+}
+@media screen and (max-width: 520px){
+  .navbar_img{
+    width: 190px;
+  }
+  .banner_sub_title{
+    font-size: 18px !important;
+  }
+}
