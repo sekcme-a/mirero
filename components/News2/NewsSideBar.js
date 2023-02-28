@@ -24,7 +24,7 @@ class NewsSideBar extends Component {
                         <h3 className="widget-title">Popular Posts</h3>
 
                         <article className="item">
-                            <Link legacyBehavior legacyBehavior href="/news-details/">
+                            <Link legacyBehavior  href="/news-details/">
                                 <a className="thumb">
                                     <span className="fullimage cover bg1" role="img"></span>
                                 </a>
@@ -33,7 +33,7 @@ class NewsSideBar extends Component {
                             <div className="info">
                                 <time>June 10, 2019</time>
                                 <h4 className="title usmall">
-                                    <Link legacyBehavior legacyBehavior href="/news-details/">
+                                    <Link legacyBehavior  href="/news-details/">
                                         <a>Making Peace With The Feast Or Famine Of Freelancing</a>
                                     </Link>
                                 </h4>
@@ -43,7 +43,7 @@ class NewsSideBar extends Component {
                         </article>
 
                         <article className="item">
-                            <Link legacyBehavior legacyBehavior href="/news-details/">
+                            <Link legacyBehavior  href="/news-details/">
                                 <a className="thumb">
                                     <span className="fullimage cover bg2" role="img"></span>
                                 </a>
@@ -52,7 +52,7 @@ class NewsSideBar extends Component {
                             <div className="info">
                                 <time>June 21, 2019</time>
                                 <h4 className="title usmall">
-                                    <Link legacyBehavior legacyBehavior href="/news-details/">
+                                    <Link legacyBehavior  href="/news-details/">
                                         <a>I Used The Web For A Day On A 50 MB Budget</a>
                                     </Link>
                                 </h4>
@@ -62,7 +62,7 @@ class NewsSideBar extends Component {
                         </article>
 
                         <article className="item">
-                            <Link legacyBehavior legacyBehavior href="/news-details/">
+                            <Link legacyBehavior  href="/news-details/">
                                 <a className="thumb">
                                     <span className="fullimage cover bg3" role="img"></span>
                                 </a>
@@ -71,7 +71,7 @@ class NewsSideBar extends Component {
                             <div className="info">
                                 <time>June 30, 2019</time>
                                 <h4 className="title usmall">
-                                    <Link legacyBehavior legacyBehavior href="/news-details/">
+                                    <Link legacyBehavior  href="/news-details/">
                                         <a>How To Create A Responsive Popup Gallery?</a>
                                     </Link>
                                 </h4>
@@ -87,27 +87,27 @@ class NewsSideBar extends Component {
 
                         <ul>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="/news1">
+                                <Link legacyBehavior  href="/news1">
                                     <a>Business</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="/news1">
+                                <Link legacyBehavior  href="/news1">
                                     <a>Privacy</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="/news1">
+                                <Link legacyBehavior  href="/news1">
                                     <a>Technology</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="/news1">
+                                <Link legacyBehavior  href="/news1">
                                     <a>Tips</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="/news1">
+                                <Link legacyBehavior  href="/news1">
                                     <a>Uncategorized</a>
                                 </Link>
                             </li>
@@ -121,56 +121,56 @@ class NewsSideBar extends Component {
                         <ul>
                             <li>
                                 <span className="comment-author-link">
-                                    <Link legacyBehavior legacyBehavior href="#">
+                                    <Link legacyBehavior  href="#">
                                         <a>A WordPress Commenter</a>
                                     </Link>
                                 </span>
                                 <span className="plr-5">on</span>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>Hello world!</a>
                                 </Link>
                             </li>
                             <li>
                                 <span className="comment-author-link">
-                                    <Link legacyBehavior legacyBehavior href="#">
+                                    <Link legacyBehavior  href="#">
                                         <a>Aronix</a>
                                     </Link>
                                 </span>
                                 <span className="plr-5">on</span>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>Hello world!</a>
                                 </Link>
                             </li>
                             <li>
                                 <span className="comment-author-link">
-                                    <Link legacyBehavior legacyBehavior href="#">
+                                    <Link legacyBehavior  href="#">
                                         <a>Wordpress</a>
                                     </Link>
                                 </span>
                                 <span className="plr-5">on</span>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>Hello world!</a>
                                 </Link>
                             </li>
                             <li>
                                 <span className="comment-author-link">
-                                    <Link legacyBehavior legacyBehavior href="#">
+                                    <Link legacyBehavior  href="#">
                                         <a>A WordPress Commenter</a>
                                     </Link>
                                 </span>
                                 <span className="plr-5">on</span>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>Hello world!</a>
                                 </Link>
                             </li>
                             <li>
                                 <span className="comment-author-link">
-                                    <Link legacyBehavior legacyBehavior href="#">
+                                    <Link legacyBehavior  href="#">
                                         <a>Aronix</a>
                                     </Link>
                                 </span>
                                 <span className="plr-5">on</span>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>Hello world!</a>
                                 </Link>
                             </li>
@@ -183,27 +183,27 @@ class NewsSideBar extends Component {
 
                         <ul>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="/news-details/">
+                                <Link legacyBehavior  href="/news-details/">
                                     <a>How to Become a Successful Entry Level UX Designer</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="/news-details/">
+                                <Link legacyBehavior  href="/news-details/">
                                     <a>How to start your business as an entrepreneur</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="/news-details/">
+                                <Link legacyBehavior  href="/news-details/">
                                     <a>How to be a successful entrepreneur</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="/news-details/">
+                                <Link legacyBehavior  href="/news-details/">
                                     <a>10 Building Mobile Apps With Ionic And React</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="/news-details/">
+                                <Link legacyBehavior  href="/news-details/">
                                     <a>Protect your workplace from cyber attacks</a>
                                 </Link>
                             </li>
@@ -216,17 +216,17 @@ class NewsSideBar extends Component {
 
                         <ul>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>May 2019</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>April 2019</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>June 2019</a>
                                 </Link>
                             </li>
@@ -239,22 +239,22 @@ class NewsSideBar extends Component {
 
                         <ul>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>Log in</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>Entries <abbr title="Really Simple Syndication">RSS</abbr></a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>Comments <abbr title="Really Simple Syndication">RSS</abbr></a>
                                 </Link>
                             </li>
                             <li>
-                                <Link legacyBehavior legacyBehavior href="#">
+                                <Link legacyBehavior  href="#">
                                     <a>WordPress.org</a>
                                 </Link>
                             </li>
@@ -266,28 +266,28 @@ class NewsSideBar extends Component {
                         <h3 className="widget-title">Tags</h3>
 
                         <div className="tagcloud">
-                            <Link legacyBehavior legacyBehavior href="/news1">
+                            <Link legacyBehavior  href="/news1">
                                 <a>IT <span className="tag-link-count"> (3)</span></a>
                             </Link>
-                            <Link legacyBehavior legacyBehavior href="/news1">
+                            <Link legacyBehavior  href="/news1">
                                 <a>Aronix <span className="tag-link-count"> (3)</span></a>
                             </Link>
-                            <Link legacyBehavior legacyBehavior href="/news1">
+                            <Link legacyBehavior  href="/news1">
                                 <a>Games <span className="tag-link-count"> (2)</span></a>
                             </Link>
-                            <Link legacyBehavior legacyBehavior href="/news1">
+                            <Link legacyBehavior  href="/news1">
                                 <a>Fashion <span className="tag-link-count"> (2)</span></a>
                             </Link>
-                            <Link legacyBehavior legacyBehavior href="/news1">
+                            <Link legacyBehavior  href="/news1">
                                 <a>Travel <span className="tag-link-count"> (1)</span></a>
                             </Link>
-                            <Link legacyBehavior legacyBehavior href="/news1">
+                            <Link legacyBehavior  href="/news1">
                                 <a>Smart <span className="tag-link-count"> (1)</span></a>
                             </Link>
-                            <Link legacyBehavior legacyBehavior href="/news1">
+                            <Link legacyBehavior  href="/news1">
                                 <a>Marketing <span className="tag-link-count"> (1)</span></a>
                             </Link>
-                            <Link legacyBehavior legacyBehavior href="/news1">
+                            <Link legacyBehavior  href="/news1">
                                 <a>Tips <span className="tag-link-count"> (2)</span></a>
                             </Link>
                         </div>

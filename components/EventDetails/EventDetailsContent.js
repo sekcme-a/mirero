@@ -11,7 +11,7 @@ class EventDetailsContent extends Component {
                             <div className="col-lg-8 col-md-12">
                                 <div className="event-details">
                                     <div className="event-details-header">
-                                        <Link legacyBehavior legacyBehavior href="/events">
+                                        <Link legacyBehavior  href="/events">
                                             <a className="back-all-event">
                                                 <i className="flaticon-left-chevron"></i> Back To All Events
                                             </a>
@@ -44,10 +44,10 @@ class EventDetailsContent extends Component {
                                     </div>
 
                                     <div className="event-info-links">
-                                        <Link legacyBehavior legacyBehavior href="#">
+                                        <Link legacyBehavior  href="#">
                                             <a>+ Google Calendar</a>
                                         </Link>
-                                        <Link legacyBehavior legacyBehavior href="#">
+                                        <Link legacyBehavior  href="#">
                                             <a>+ iCal Export</a>
                                         </Link>
                                     </div>
@@ -55,7 +55,7 @@ class EventDetailsContent extends Component {
                                     <div className="post-navigation">
                                         <div className="navigation-links">
                                             <div className="nav-previous">
-                                                <Link legacyBehavior legacyBehavior href="#">
+                                                <Link legacyBehavior  href="#">
                                                     <a>
                                                         <i className="flaticon-left-chevron"></i> Prev Events
                                                     </a>
@@ -63,7 +63,7 @@ class EventDetailsContent extends Component {
                                             </div>
 
                                             <div className="nav-next">
-                                                <Link legacyBehavior legacyBehavior href="#">
+                                                <Link legacyBehavior  href="#">
                                                     <a>
                                                         Next Events <i className="flaticon-right-chevron"></i>
                                                     </a>
@@ -83,7 +83,7 @@ class EventDetailsContent extends Component {
                                             <li><span>Start:</span> December 15, 2020 8:00AM</li>
                                             <li><span>End:</span> December 19, 2020 8:00AM</li>
                                             <li>
-                                                <span>Event Category:</span> <Link legacyBehavior legacyBehavior href="#"><a>Web</a></Link>
+                                                <span>Event Category:</span> <Link legacyBehavior  href="#"><a>Web</a></Link>
                                             </li>
                                         </ul>
                                     </section>

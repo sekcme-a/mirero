@@ -33,7 +33,7 @@ class Footer extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-footer-widget">
                                     <div className="logo">
-                                        <Link legacyBehavior legacyBehavior href="/">
+                                        <Link legacyBehavior  href="/">
                                             <a>
                                                 <img src="/images/logo-white.png" alt="image" />
                                             </a>
@@ -73,52 +73,52 @@ class Footer extends Component {
 
                                     <ul className="footer-quick-links">
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="/">
+                                            <Link legacyBehavior  href="/">
                                                 <a>Home</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="/team">
+                                            <Link legacyBehavior  href="/team">
                                                 <a>Our Team</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="/about">
+                                            <Link legacyBehavior  href="/about">
                                                 <a>About Us</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="/news1">
+                                            <Link legacyBehavior  href="/news1">
                                                 <a>Latest News</a>
                                             </Link>
                                         </li>
                                         {/* <li>
-                                            <Link legacyBehavior legacyBehavior href="/the-place">
+                                            <Link legacyBehavior  href="/the-place">
                                                 <a>The Place</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="#">
+                                            <Link legacyBehavior  href="#">
                                                 <a>Privacy Policy</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="/events">
+                                            <Link legacyBehavior  href="/events">
                                                 <a>Our Events</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="#">
+                                            <Link legacyBehavior  href="#">
                                                 <a>Terms & Conditions</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="#">
+                                            <Link legacyBehavior  href="#">
                                                 <a>Our Packages</a>
                                             </Link>
                                         </li> */}
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="/contact">
+                                            <Link legacyBehavior  href="/contact">
                                                 <a>Contact Us</a>
                                             </Link>
                                         </li>
@@ -150,12 +150,12 @@ class Footer extends Component {
                                 {/* <div className="col-lg-6 col-sm-6 col-md-6">
                                     <ul>
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="#">
+                                            <Link legacyBehavior  href="#">
                                                 <a>Privacy Policy</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="#">
+                                            <Link legacyBehavior  href="#">
                                                 <a>Terms & Conditions</a>
                                             </Link>
                                         </li>

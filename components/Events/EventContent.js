@@ -17,7 +17,7 @@ class EventContent extends Component {
                             <div className="event-content">
                                 <div className="content">
                                     <h3>
-                                        <Link legacyBehavior legacyBehavior href="/event-details">
+                                        <Link legacyBehavior  href="/event-details">
                                             <a>Web Development</a>
                                         </Link>
                                     </h3>
@@ -40,7 +40,7 @@ class EventContent extends Component {
                                         </li>
                                     </ul>
 
-                                    <Link legacyBehavior legacyBehavior href="/event-details">
+                                    <Link legacyBehavior  href="/event-details">
                                         <a className="default-btn">
                                             More Info <span></span>
                                         </a>
@@ -53,7 +53,7 @@ class EventContent extends Component {
                             <div className="event-content">
                                 <div className="content">
                                     <h3>
-                                        <Link legacyBehavior legacyBehavior href="/event-details">
+                                        <Link legacyBehavior  href="/event-details">
                                             <a>Ruby on Rails Framework</a>
                                         </Link>
                                     </h3>
@@ -76,7 +76,7 @@ class EventContent extends Component {
                                         </li>
                                     </ul>
 
-                                    <Link legacyBehavior legacyBehavior href="/event-details">
+                                    <Link legacyBehavior  href="/event-details">
                                         <a className="default-btn">
                                             More Info <span></span>
                                         </a>
@@ -101,7 +101,7 @@ class EventContent extends Component {
                             <div className="event-content">
                                 <div className="content">
                                     <h3>
-                                        <Link legacyBehavior legacyBehavior href="/event-details">
+                                        <Link legacyBehavior  href="/event-details">
                                             <a>Angular Web Development</a>
                                         </Link>
                                     </h3>
@@ -124,7 +124,7 @@ class EventContent extends Component {
                                         </li>
                                     </ul>
 
-                                    <Link legacyBehavior legacyBehavior href="/event-details">
+                                    <Link legacyBehavior  href="/event-details">
                                         <a className="default-btn">
                                             More Info <span></span>
                                         </a>
@@ -137,7 +137,7 @@ class EventContent extends Component {
                             <div className="event-content">
                                 <div className="content">
                                     <h3>
-                                        <Link legacyBehavior legacyBehavior href="/event-details">
+                                        <Link legacyBehavior  href="/event-details">
                                             <a>WordPress Framework</a>
                                         </Link>
                                     </h3>
@@ -160,7 +160,7 @@ class EventContent extends Component {
                                         </li>
                                     </ul>
 
-                                    <Link legacyBehavior legacyBehavior href="/event-details">
+                                    <Link legacyBehavior  href="/event-details">
                                         <a className="default-btn">
                                             More Info <span></span>
                                         </a>

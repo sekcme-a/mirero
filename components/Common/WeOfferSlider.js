@@ -43,7 +43,7 @@ class WeOfferSlider extends Component {
 
                                     <div className="services-content">
                                         <h3>
-                                            <Link legacyBehavior legacyBehavior href="/service-details">
+                                            <Link legacyBehavior  href="/service-details">
                                                 <a>Office Space</a>
                                             </Link>
                                         </h3>
@@ -58,7 +58,7 @@ class WeOfferSlider extends Component {
 
                                     <div className="services-content">
                                         <h3>
-                                            <Link legacyBehavior legacyBehavior href="/service-details">
+                                            <Link legacyBehavior  href="/service-details">
                                                 <a>Coworking</a>
                                             </Link>
                                         </h3>
@@ -73,7 +73,7 @@ class WeOfferSlider extends Component {
 
                                     <div className="services-content">
                                         <h3>
-                                            <Link legacyBehavior legacyBehavior href="/service-details">
+                                            <Link legacyBehavior  href="/service-details">
                                                 <a>Meeting Spaces</a>
                                             </Link>
                                         </h3>
@@ -88,7 +88,7 @@ class WeOfferSlider extends Component {
 
                                     <div className="services-content">
                                         <h3>
-                                            <Link legacyBehavior legacyBehavior href="/service-details">
+                                            <Link legacyBehavior  href="/service-details">
                                                 <a>Virtual Offices</a>
                                             </Link>
                                         </h3>

@@ -21,7 +21,7 @@ class About extends Component {
                                         그 중대한 시점에 건강과 행복을 위한 국내 최고의 사회교육과정을 소개합니다.
                                     </p>
 
-                                    <Link legacyBehavior legacyBehavior href="/about">
+                                    <Link legacyBehavior  href="/about">
                                         <a className="read-more-btn">
                                             소개 자세히 보기 <i className="flaticon-next"></i>
                                         </a>

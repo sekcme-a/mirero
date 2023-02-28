@@ -43,7 +43,7 @@ const Banner = () => {
                                         <h1>리더스 힐링 아카데미와<br/> 함께 하세요</h1>
 
                                         <div className="btn-box">
-                                            <Link legacyBehavior legacyBehavior href="#">
+                                            <Link legacyBehavior  href="#">
                                                 <a className="default-btn">리더스 힐링 아카데미 소개<span></span></a>
                                             </Link>
 
@@ -71,7 +71,7 @@ const Banner = () => {
                                         <h1>대한민국 리더를 위한 맞춤형 <br/>헬스 케어를 제공합니다.</h1>
 
                                         <div className="btn-box">
-                                            <Link legacyBehavior legacyBehavior href="#">
+                                            <Link legacyBehavior  href="#">
                                                 <a className="default-btn">강사진 소개<span></span></a>
                                             </Link>
 
@@ -99,7 +99,7 @@ const Banner = () => {
                                         <h1>Professional, Creative, Flexible, Scalable Workspace</h1>
 
                                         <div className="btn-box">
-                                            <Link legacyBehavior legacyBehavior href="#">
+                                            <Link legacyBehavior  href="#">
                                                 <a className="default-btn">Book A Room <span></span></a>
                                             </Link>
 

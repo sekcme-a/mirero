@@ -17,7 +17,7 @@ class ServicesBoxes extends Component {
 
                                     <div className="content">
                                         <h3>
-                                            <Link legacyBehavior legacyBehavior href="/service-details">
+                                            <Link legacyBehavior  href="/service-details">
                                                 <a>교육 프로그램</a>
                                             </Link>
                                         </h3>
@@ -25,13 +25,13 @@ class ServicesBoxes extends Component {
 
                                     <div className="hover-content">
                                         <h3>
-                                            <Link legacyBehavior legacyBehavior href="/service-details">
+                                            <Link legacyBehavior  href="/service-details">
                                                 <a>교육 프로그램</a>
                                             </Link>
                                         </h3>
                                         <p className={styles.servciesBoxes_p}>최고의 의료시설과 의료진으로 구성된 리더스 힐링 아카데미의 프로그램을 확인하세요.</p>
 
-                                        <Link legacyBehavior legacyBehavior href="/service-details">
+                                        <Link legacyBehavior  href="/service-details">
                                             <a className="read-more-btn">자세히 보기</a>
                                         </Link>
                                     </div>
@@ -45,7 +45,7 @@ class ServicesBoxes extends Component {
 
                                     <div className="content">
                                         <h3>
-                                            <Link legacyBehavior legacyBehavior href="/service-details">
+                                            <Link legacyBehavior  href="/service-details">
                                                 <a>원장 소개 및 인삿말</a>
                                             </Link>
                                         </h3>
@@ -53,13 +53,13 @@ class ServicesBoxes extends Component {
 
                                     <div className="hover-content">
                                         <h3>
-                                            <Link legacyBehavior legacyBehavior href="/service-details">
+                                            <Link legacyBehavior  href="/service-details">
                                                 <a>원장 소개 및 인삿말</a>
                                             </Link>
                                         </h3>
                                         <p className={styles.servciesBoxes_p}>리더스 힐링 아카데미의 원장 소개와 인삿말을 확인하세요.</p>
 
-                                        <Link legacyBehavior legacyBehavior href="/service-details">
+                                        <Link legacyBehavior  href="/service-details">
                                             <a className="read-more-btn">자세히 보기</a>
                                         </Link>
                                     </div>
@@ -74,7 +74,7 @@ class ServicesBoxes extends Component {
 
                                     <div className="content">
                                         <h3>
-                                            <Link legacyBehavior legacyBehavior href="/service-details">
+                                            <Link legacyBehavior  href="/service-details">
                                                 <a>강사진 소개</a>
                                             </Link>
                                         </h3>
@@ -82,13 +82,13 @@ class ServicesBoxes extends Component {
 
                                     <div className="hover-content">
                                         <h3>
-                                            <Link legacyBehavior legacyBehavior href="/service-details">
+                                            <Link legacyBehavior  href="/service-details">
                                                 <a>강사진 소개</a>
                                             </Link>
                                         </h3>
                                         <p className={styles.servciesBoxes_p}>리더스 힐링 아카데미와 함께하는 중앙대학교 광명병원의 의료진을 소개합니다.</p>
 
-                                        <Link legacyBehavior legacyBehavior href="/service-details">
+                                        <Link legacyBehavior  href="/service-details">
                                             <a className="read-more-btn">자세히 보기</a>
                                         </Link>
                                     </div>

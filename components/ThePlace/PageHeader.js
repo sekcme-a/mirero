@@ -13,7 +13,7 @@ class PageHeader extends Component {
                                     <h2>The Place</h2>
                                     <ul>
                                         <li>
-                                            <Link legacyBehavior legacyBehavior href="/">
+                                            <Link legacyBehavior  href="/">
                                                 <a>Home</a>
                                             </Link>
                                         </li>

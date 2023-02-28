@@ -19,10 +19,10 @@ class NewsDetailsContent extends Component {
                                         <div className="entry-meta">
                                             <ul>
                                                 <li>
-                                                    <span>Posted On:</span> <Link legacyBehavior legacyBehavior href="#"><a>September 31, 2020</a></Link>
+                                                    <span>Posted On:</span> <Link legacyBehavior  href="#"><a>September 31, 2020</a></Link>
                                                 </li>
                                                 <li>
-                                                    <span>Posted By:</span> <Link legacyBehavior legacyBehavior href="#"><a>John Anderson</a></Link>
+                                                    <span>Posted By:</span> <Link legacyBehavior  href="#"><a>John Anderson</a></Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -92,9 +92,9 @@ class NewsDetailsContent extends Component {
                                     <div className="article-footer">
                                         <div className="article-tags">
                                             <span><i className="fas fa-bookmark"></i></span>
-                                            <Link legacyBehavior legacyBehavior href="#"><a>Fashion,</a></Link>
-                                            <Link legacyBehavior legacyBehavior href="#"><a>Games,</a></Link>
-                                            <Link legacyBehavior legacyBehavior href="#"><a>Travel</a></Link>
+                                            <Link legacyBehavior  href="#"><a>Fashion,</a></Link>
+                                            <Link legacyBehavior  href="#"><a>Games,</a></Link>
+                                            <Link legacyBehavior  href="#"><a>Travel</a></Link>
                                         </div>
 
                                         <div className="article-share">
@@ -127,7 +127,7 @@ class NewsDetailsContent extends Component {
                                     <div className="post-navigation">
                                         <div className="navigation-links">
                                             <div className="nav-previous">
-                                                <Link legacyBehavior legacyBehavior href="#">
+                                                <Link legacyBehavior  href="#">
                                                     <a>
                                                         <i className="flaticon-left-chevron"></i> Prev Post
                                                     </a>
@@ -135,7 +135,7 @@ class NewsDetailsContent extends Component {
                                             </div>
 
                                             <div className="nav-next">
-                                                <Link legacyBehavior legacyBehavior href="#">
+                                                <Link legacyBehavior  href="#">
                                                     <a>
                                                         Next Post <i className="flaticon-right-chevron"></i>
                                                     </a>
@@ -158,7 +158,7 @@ class NewsDetailsContent extends Component {
                                                         </div>
 
                                                         <div className="comment-metadata">
-                                                            <Link legacyBehavior legacyBehavior href="#">
+                                                            <Link legacyBehavior  href="#">
                                                                 <a>
                                                                     <time>April 24, 2019 at 10:59 am</time>
                                                                 </a>
@@ -171,7 +171,7 @@ class NewsDetailsContent extends Component {
                                                     </div>
 
                                                     <div className="reply">
-                                                        <Link legacyBehavior legacyBehavior href="#">
+                                                        <Link legacyBehavior  href="#">
                                                             <a className="comment-reply-link">Reply</a>
                                                         </Link>
                                                     </div>
@@ -188,7 +188,7 @@ class NewsDetailsContent extends Component {
                                                                 </div>
                     
                                                                 <div className="comment-metadata">
-                                                                    <Link legacyBehavior legacyBehavior href="#">
+                                                                    <Link legacyBehavior  href="#">
                                                                         <a>
                                                                             <time>April 24, 2019 at 10:59 am</time>
                                                                         </a>
@@ -201,7 +201,7 @@ class NewsDetailsContent extends Component {
                                                             </div>
                     
                                                             <div className="reply">
-                                                                <Link legacyBehavior legacyBehavior href="#">
+                                                                <Link legacyBehavior  href="#">
                                                                     <a className="comment-reply-link">Reply</a>
                                                                 </Link>
                                                             </div>
@@ -219,7 +219,7 @@ class NewsDetailsContent extends Component {
                                                                     </div>
                         
                                                                     <div className="comment-metadata">
-                                                                        <Link legacyBehavior legacyBehavior href="#">
+                                                                        <Link legacyBehavior  href="#">
                                                                             <a>
                                                                                 <time>April 24, 2019 at 10:59 am</time>
                                                                             </a>
@@ -232,7 +232,7 @@ class NewsDetailsContent extends Component {
                                                                 </div>
                         
                                                                 <div className="reply">
-                                                                    <Link legacyBehavior legacyBehavior href="#">
+                                                                    <Link legacyBehavior  href="#">
                                                                         <a className="comment-reply-link">Reply</a>
                                                                     </Link>
                                                                 </div>
@@ -252,7 +252,7 @@ class NewsDetailsContent extends Component {
                                                         </div>
 
                                                         <div className="comment-metadata">
-                                                            <Link legacyBehavior legacyBehavior href="#">
+                                                            <Link legacyBehavior  href="#">
                                                                 <a>
                                                                     <time>April 24, 2019 at 10:59 am</time>
                                                                 </a>
@@ -265,7 +265,7 @@ class NewsDetailsContent extends Component {
                                                     </div>
 
                                                     <div className="reply">
-                                                        <Link legacyBehavior legacyBehavior href="#">
+                                                        <Link legacyBehavior  href="#">
                                                             <a className="comment-reply-link">Reply</a>
                                                         </Link>
                                                     </div>
@@ -282,7 +282,7 @@ class NewsDetailsContent extends Component {
                                                                 </div>
                     
                                                                 <div className="comment-metadata">
-                                                                    <Link legacyBehavior legacyBehavior href="#">
+                                                                    <Link legacyBehavior  href="#">
                                                                         <a>
                                                                             <time>April 24, 2019 at 10:59 am</time>
                                                                         </a>
@@ -295,7 +295,7 @@ class NewsDetailsContent extends Component {
                                                             </div>
                     
                                                             <div className="reply">
-                                                                <Link legacyBehavior legacyBehavior href="#">
+                                                                <Link legacyBehavior  href="#">
                                                                     <a className="comment-reply-link">Reply</a>
                                                                 </Link>
                                                             </div>

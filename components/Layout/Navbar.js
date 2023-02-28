@@ -41,7 +41,7 @@ class Navbar extends Component {
                     <div className="tuam-nav">
                         <div className="container">
                             <nav className="navbar navbar-expand-md navbar-light">
-                                <Link legacyBehavior legacyBehavior href="/">
+                                <Link legacyBehavior  href="/">
                                     <a className="navbar-brand">
                                         <img src="/images/logo.png" alt="logo" className={styles.navbar_img}/>
                                     </a>
@@ -65,38 +65,38 @@ class Navbar extends Component {
                                     <ul className="navbar-nav">
                                         
                                         <li className="nav-item">
-                                            <Link legacyBehavior legacyBehavior href="/" activeClassName="active">
+                                            <Link legacyBehavior  href="/" activeClassName="active">
                                                 <a className="nav-link">메인화면</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link legacyBehavior legacyBehavior href="/about" activeClassName="active">
+                                            <Link legacyBehavior  href="/about" activeClassName="active">
                                                 <a className="nav-link">소개</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link legacyBehavior legacyBehavior href="/the-place" activeClassName="active">
+                                            <Link legacyBehavior  href="/the-place" activeClassName="active">
                                                 <a className="nav-link">The Place</a>
                                             </Link>
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link legacyBehavior legacyBehavior href="#">
+                                            <Link legacyBehavior  href="#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     Event <i className="flaticon-down-arrow"></i>
                                                 </a>
                                             </Link>
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior legacyBehavior href="/events" activeClassName="active">
+                                                    <Link legacyBehavior  href="/events" activeClassName="active">
                                                         <a className="nav-link">Events</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior legacyBehavior href="/event-details" activeClassName="active">
+                                                    <Link legacyBehavior  href="/event-details" activeClassName="active">
                                                         <a className="nav-link">Event Details</a>
                                                     </Link>
                                                 </li>
@@ -104,30 +104,30 @@ class Navbar extends Component {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link legacyBehavior legacyBehavior href="#">
+                                            <Link legacyBehavior  href="#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     Pages <i className="flaticon-down-arrow"></i>
                                                 </a>
                                             </Link>
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior legacyBehavior href="/gallery" activeClassName="active">
+                                                    <Link legacyBehavior  href="/gallery" activeClassName="active">
                                                         <a className="nav-link">Gallery</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior legacyBehavior href="#">
+                                                    <Link legacyBehavior  href="#">
                                                         <a className="nav-link" onClick={e => e.preventDefault()}>Services</a>
                                                     </Link>
                                                     <ul className="dropdown-menu">
                                                         <li className="nav-item">
-                                                            <Link legacyBehavior legacyBehavior href="/services" activeClassName="active">
+                                                            <Link legacyBehavior  href="/services" activeClassName="active">
                                                                 <a className="nav-link">Services</a>
                                                             </Link>
                                                         </li>
                                                         <li className="nav-item">
-                                                            <Link legacyBehavior legacyBehavior href="/service-details" activeClassName="active">
+                                                            <Link legacyBehavior  href="/service-details" activeClassName="active">
                                                                 <a className="nav-link">Service Details</a>
                                                             </Link>
                                                         </li>
@@ -135,19 +135,19 @@ class Navbar extends Component {
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior legacyBehavior href="/pricing" activeClassName="active">
+                                                    <Link legacyBehavior  href="/pricing" activeClassName="active">
                                                         <a className="nav-link">Pricing</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior legacyBehavior href="/team" activeClassName="active">
+                                                    <Link legacyBehavior  href="/team" activeClassName="active">
                                                         <a className="nav-link">Team</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior legacyBehavior href="/404" activeClassName="active">
+                                                    <Link legacyBehavior  href="/404" activeClassName="active">
                                                         <a className="nav-link">404 Error</a>
                                                     </Link>
                                                 </li>
@@ -155,26 +155,26 @@ class Navbar extends Component {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link legacyBehavior legacyBehavior href="#">
+                                            <Link legacyBehavior  href="#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     News <i className="flaticon-down-arrow"></i>
                                                 </a>
                                             </Link>
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior legacyBehavior href="/news1" activeClassName="active">
+                                                    <Link legacyBehavior  href="/news1" activeClassName="active">
                                                         <a className="nav-link">News Grid</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior legacyBehavior href="/news2" activeClassName="active">
+                                                    <Link legacyBehavior  href="/news2" activeClassName="active">
                                                         <a className="nav-link">News Right Sidebar</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior legacyBehavior href="/news-details" activeClassName="active">
+                                                    <Link legacyBehavior  href="/news-details" activeClassName="active">
                                                         <a className="nav-link">News Details</a>
                                                     </Link>
                                                 </li>
@@ -182,7 +182,7 @@ class Navbar extends Component {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link legacyBehavior legacyBehavior href="/contact" activeClassName="active">
+                                            <Link legacyBehavior  href="/contact" activeClassName="active">
                                                 <a className="nav-link">Contact</a>
                                             </Link>
                                         </li>

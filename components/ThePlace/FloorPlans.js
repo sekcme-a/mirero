@@ -73,7 +73,7 @@ class FloorPlans extends Component {
                                                             <li>Windows <span>4</span></li>
                                                         </ul>
 
-                                                        <Link legacyBehavior legacyBehavior href="#">
+                                                        <Link legacyBehavior  href="#">
                                                             <a className="default-btn">
                                                                 Schedule a Visit <span></span>
                                                             </a>
@@ -110,7 +110,7 @@ class FloorPlans extends Component {
                                                             <li>Windows <span>4</span></li>
                                                         </ul>
 
-                                                        <Link legacyBehavior legacyBehavior href="#">
+                                                        <Link legacyBehavior  href="#">
                                                             <a className="default-btn">
                                                                 Schedule a Visit <span></span>
                                                             </a>
@@ -135,7 +135,7 @@ class FloorPlans extends Component {
                                                             <li>Windows <span>4</span></li>
                                                         </ul>
 
-                                                        <Link legacyBehavior legacyBehavior href="#">
+                                                        <Link legacyBehavior  href="#">
                                                             <a className="default-btn">
                                                                 Schedule a Visit <span></span>
                                                             </a>
@@ -172,7 +172,7 @@ class FloorPlans extends Component {
                                                             <li>Windows <span>4</span></li>
                                                         </ul>
 
-                                                        <Link legacyBehavior legacyBehavior href="#">
+                                                        <Link legacyBehavior  href="#">
                                                             <a className="default-btn">
                                                                 Schedule a Visit <span></span>
                                                             </a>
@@ -197,7 +197,7 @@ class FloorPlans extends Component {
                                                             <li>Windows <span>4</span></li>
                                                         </ul>
 
-                                                        <Link legacyBehavior legacyBehavior href="#">
+                                                        <Link legacyBehavior  href="#">
                                                             <a className="default-btn">
                                                                 Schedule a Visit <span></span>
                                                             </a>

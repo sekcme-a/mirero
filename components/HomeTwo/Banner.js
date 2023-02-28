@@ -31,7 +31,7 @@ const Banner = () => {
                                             <h1>Professional, Creative, Flexible, Scalable Workspace</h1>
 
                                             <div className="btn-box">
-                                                <Link legacyBehavior legacyBehavior href="#">
+                                                <Link legacyBehavior  href="#">
                                                     <a className="default-btn">
                                                         Book A Room <span></span>
                                                     </a>
@@ -61,7 +61,7 @@ const Banner = () => {
                                             <h1>Professional, Creative, Flexible, Scalable Workspace</h1>
 
                                             <div className="btn-box">
-                                                <Link legacyBehavior legacyBehavior href="#">
+                                                <Link legacyBehavior  href="#">
                                                     <a className="default-btn">
                                                         Book A Room <span></span>
                                                     </a>
@@ -91,7 +91,7 @@ const Banner = () => {
                                             <h1>Professional, Creative, Flexible, Scalable Workspace</h1>
 
                                             <div className="btn-box">
-                                                <Link legacyBehavior legacyBehavior href="#">
+                                                <Link legacyBehavior  href="#">
                                                     <a className="default-btn">
                                                         Book A Room <span></span>
                                                     </a>

@@ -50,7 +50,7 @@ class AboutUs extends Component {
                                     
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
 
-                                    <Link legacyBehavior legacyBehavior href="/about">
+                                    <Link legacyBehavior  href="/about">
                                         <a className="read-more-btn">
                                             More About Us <i className="flaticon-next"></i>
                                         </a>

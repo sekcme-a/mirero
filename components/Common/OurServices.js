@@ -24,14 +24,14 @@ class OurServices extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior legacyBehavior href="/service-details">
+                                        <Link legacyBehavior  href="/service-details">
                                             <a>Virtual Offices</a>
                                         </Link>
                                     </h3>
 
                                     <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut incididunt labore et dolore.</p>
 
-                                    <Link legacyBehavior legacyBehavior href="/service-details">
+                                    <Link legacyBehavior  href="/service-details">
                                         <a className="read-more-btn">Learn More</a>
                                     </Link>
 
@@ -53,14 +53,14 @@ class OurServices extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior legacyBehavior href="/service-details">
+                                        <Link legacyBehavior  href="/service-details">
                                             <a>Full-Time Offices</a>
                                         </Link>
                                     </h3>
 
                                     <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut incididunt labore et dolore.</p>
 
-                                    <Link legacyBehavior legacyBehavior href="/service-details">
+                                    <Link legacyBehavior  href="/service-details">
                                         <a className="read-more-btn">Learn More</a>
                                     </Link>
 
@@ -82,14 +82,14 @@ class OurServices extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior legacyBehavior href="/service-details">
+                                        <Link legacyBehavior  href="/service-details">
                                             <a>Conference Rooms</a>
                                         </Link>
                                     </h3>
 
                                     <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut incididunt labore et dolore.</p>
 
-                                    <Link legacyBehavior legacyBehavior href="/service-details">
+                                    <Link legacyBehavior  href="/service-details">
                                         <a className="read-more-btn">Learn More</a>
                                     </Link>
 
@@ -111,14 +111,14 @@ class OurServices extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior legacyBehavior href="/service-details">
+                                        <Link legacyBehavior  href="/service-details">
                                             <a>Global Access</a>
                                         </Link>
                                     </h3>
 
                                     <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut incididunt labore et dolore.</p>
 
-                                    <Link legacyBehavior legacyBehavior href="/service-details">
+                                    <Link legacyBehavior  href="/service-details">
                                         <a className="read-more-btn">Learn More</a>
                                     </Link>
 
@@ -140,14 +140,14 @@ class OurServices extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior legacyBehavior href="/service-details">
+                                        <Link legacyBehavior  href="/service-details">
                                             <a>Discounted Products</a>
                                         </Link>
                                     </h3>
 
                                     <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut incididunt labore et dolore.</p>
 
-                                    <Link legacyBehavior legacyBehavior href="/service-details">
+                                    <Link legacyBehavior  href="/service-details">
                                         <a className="read-more-btn">Learn More</a>
                                     </Link>
 
@@ -169,14 +169,14 @@ class OurServices extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior legacyBehavior href="/service-details">
+                                        <Link legacyBehavior  href="/service-details">
                                             <a>B2B Opportunities</a>
                                         </Link>
                                     </h3>
 
                                     <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod incididunt ut incididunt labore et dolore.</p>
 
-                                    <Link legacyBehavior legacyBehavior href="/service-details">
+                                    <Link legacyBehavior  href="/service-details">
                                         <a className="read-more-btn">Learn More</a>
                                     </Link>
 

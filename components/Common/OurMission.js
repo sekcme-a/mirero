@@ -23,7 +23,7 @@ class OurMission extends Component {
                                     <h3>Our Mission</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
 
-                                    <Link legacyBehavior legacyBehavior href="/about">
+                                    <Link legacyBehavior  href="/about">
                                         <a className="default-btn">Learn More <span></span></a>
                                     </Link>
                                 </div>
@@ -44,7 +44,7 @@ class OurMission extends Component {
                                     <h3>Our History</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
 
-                                    <Link legacyBehavior legacyBehavior href="/about">
+                                    <Link legacyBehavior  href="/about">
                                         <a className="default-btn">Learn More <span></span></a>
                                     </Link>
                                 </div>

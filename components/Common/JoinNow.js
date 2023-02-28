@@ -11,7 +11,7 @@ class JoinNow extends Component {
                             <h2>리더스 힐링 아카데미와 함께하세요.</h2>
                             <p>최고의 의료시설과 의료진, 원우분들과 함께하세요.</p>
 
-                            <Link legacyBehavior legacyBehavior href="#" >
+                            <Link legacyBehavior  href="#" >
                                 <a className="default-btn">
                                     등록하기 <i className="flaticon-right-chevron"></i> 
                                     <span></span>

@@ -25,7 +25,7 @@ class PriceTable extends Component {
                                     </div>
 
                                     <div className="book-now-btn">
-                                        <Link legacyBehavior legacyBehavior href="#">
+                                        <Link legacyBehavior  href="#">
                                             <a className="default-btn">Book Now <span></span></a>
                                         </Link>
                                     </div>
@@ -52,7 +52,7 @@ class PriceTable extends Component {
                                     </div>
 
                                     <div className="book-now-btn">
-                                        <Link legacyBehavior legacyBehavior href="#">
+                                        <Link legacyBehavior  href="#">
                                             <a className="default-btn">Book Now <span></span></a>
                                         </Link>
                                     </div>
@@ -79,7 +79,7 @@ class PriceTable extends Component {
                                     </div>
 
                                     <div className="book-now-btn">
-                                        <Link legacyBehavior legacyBehavior href="#">
+                                        <Link legacyBehavior  href="#">
                                             <a className="default-btn">Book Now <span></span></a>
                                         </Link>
                                     </div>
