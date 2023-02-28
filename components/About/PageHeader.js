@@ -17,7 +17,7 @@ class PageHeader extends Component {
                                                 <a>메인화면</a>
                                             </Link>
                                         </li>
-                                        <li>소개</li>
+                                        <li>기본소개</li>
                                     </ul>
                                 </div>
                             </div>

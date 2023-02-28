@@ -70,39 +70,130 @@ class Navbar extends Component {
                                             </Link>
                                         </li>
 
-                                        <li className="nav-item">
-                                            <Link legacyBehavior  href="/about" activeClassName="active">
-                                                <a className="nav-link">소개</a>
-                                            </Link>
-                                        </li>
 
-                                        <li className="nav-item">
-                                            <Link legacyBehavior  href="/the-place" activeClassName="active">
-                                                <a className="nav-link">The Place</a>
-                                            </Link>
-                                        </li>
 
                                         <li className="nav-item">
                                             <Link legacyBehavior  href="#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    Event <i className="flaticon-down-arrow"></i>
+                                                    소개<i className="flaticon-down-arrow"></i>
                                                 </a>
                                             </Link>
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior  href="/events" activeClassName="active">
-                                                        <a className="nav-link">Events</a>
+                                                    <Link legacyBehavior  href="/about" activeClassName="active">
+                                                        <a className="nav-link">기본소개</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link legacyBehavior  href="/event-details" activeClassName="active">
-                                                        <a className="nav-link">Event Details</a>
+                                                        <a className="nav-link">인사말</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/event-details" activeClassName="active">
+                                                        <a className="nav-link">설립목적</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/event-details" activeClassName="active">
+                                                        <a className="nav-link">설립취지</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/event-details" activeClassName="active">
+                                                        <a className="nav-link">소개영상</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/event-details" activeClassName="active">
+                                                        <a className="nav-link">오시는길</a>
                                                     </Link>
                                                 </li>
                                             </ul>
                                         </li>
 
+
+
+
+                                        <li className="nav-item">
+                                            <Link legacyBehavior  href="#">
+                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                    프로그램<i className="flaticon-down-arrow"></i>
+                                                </a>
+                                            </Link>
+                                            <ul className="dropdown-menu">
+
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/about" activeClassName="active">
+                                                        <a className="nav-link">교육 프로그램</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/about" activeClassName="active">
+                                                        <a className="nav-link">강사진 소개</a>
+                                                    </Link>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+
+
+
+
+
+
+                                        <li className="nav-item">
+                                            <Link legacyBehavior  href="/the-place" activeClassName="active">
+                                                <a className="nav-link">특전</a>
+                                            </Link>
+                                        </li>
+
+
+                                        <li className="nav-item">
+                                            <Link legacyBehavior  href="/the-place" activeClassName="active">
+                                                <a className="nav-link">아카데미 소식</a>
+                                            </Link>
+                                        </li>
+
+
+                                        <li className="nav-item">
+                                            <Link legacyBehavior  href="#">
+                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                    신청하기<i className="flaticon-down-arrow"></i>
+                                                </a>
+                                            </Link>
+                                            <ul className="dropdown-menu">
+
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/about" activeClassName="active">
+                                                        <a className="nav-link">모집요강</a>
+                                                    </Link>
+                                                </li>
+
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/about" activeClassName="active">
+                                                        <a className="nav-link">신청서 다운로드</a>
+                                                    </Link>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+
+
+                                        <li className="nav-item">
+                                            <Link legacyBehavior  href="/the-place" activeClassName="active">
+                                                <a className="nav-link">문의하기</a>
+                                            </Link>
+                                        </li>
+{/* 
                                         <li className="nav-item">
                                             <Link legacyBehavior  href="#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
@@ -152,40 +243,7 @@ class Navbar extends Component {
                                                     </Link>
                                                 </li>
                                             </ul>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link legacyBehavior  href="#">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    News <i className="flaticon-down-arrow"></i>
-                                                </a>
-                                            </Link>
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link legacyBehavior  href="/news1" activeClassName="active">
-                                                        <a className="nav-link">News Grid</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link legacyBehavior  href="/news2" activeClassName="active">
-                                                        <a className="nav-link">News Right Sidebar</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link legacyBehavior  href="/news-details" activeClassName="active">
-                                                        <a className="nav-link">News Details</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link legacyBehavior  href="/contact" activeClassName="active">
-                                                <a className="nav-link">Contact</a>
-                                            </Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
 
                                     <div className="others-option">
@@ -193,7 +251,7 @@ class Navbar extends Component {
                                             <div className="icon">
                                                 <i className="flaticon-call"></i>
                                             </div>
-                                            Call Us:
+                                            상담문의:
                                             <span className="number">010-5339-6943</span>
                                         </div>
                                     </div>
