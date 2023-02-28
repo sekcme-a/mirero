@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import FsLightbox from 'fslightbox-react';
 
 //urlList  ['https://www.youtube.com/embed/Ogn8fOTtp6s',]
-const VideoArea = ({urlList, title, subtitle}) => {
+const VideoArea = ({urlList, title, subtitle, thumbnail}) => {
     const [toggler, setToggler] = useState(false);
     return (
 		<>
@@ -19,7 +19,7 @@ const VideoArea = ({urlList, title, subtitle}) => {
                     </div>
 
                     <div className="video-box">
-                        <img src="/images/video-img.png" alt="image" />
+                        <img src={thumbnail} alt="image" />
 
                         <div className="play-video">
                             <div
