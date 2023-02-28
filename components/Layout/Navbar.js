@@ -86,25 +86,19 @@ class Navbar extends Component {
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior  href="/event-details" activeClassName="active">
+                                                    <Link legacyBehavior  href="/about/greet" activeClassName="active">
                                                         <a className="nav-link">인사말</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior  href="/event-details" activeClassName="active">
-                                                        <a className="nav-link">설립목적</a>
+                                                    <Link legacyBehavior  href="/about/purpose" activeClassName="active">
+                                                        <a className="nav-link">설립목적 및 취지</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior  href="/event-details" activeClassName="active">
-                                                        <a className="nav-link">설립취지</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link legacyBehavior  href="/event-details" activeClassName="active">
+                                                    <Link legacyBehavior  href="/about/video" activeClassName="active">
                                                         <a className="nav-link">소개영상</a>
                                                     </Link>
                                                 </li>

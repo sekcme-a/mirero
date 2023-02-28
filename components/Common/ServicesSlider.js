@@ -41,14 +41,14 @@ class ServicesSlider extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior  href="/service-details">
+                                        <Link legacyBehavior  href="/about/purpose">
                                             <a>설립목적</a>
                                         </Link>
                                     </h3>
 
-                                    <p>중앙대학교 광명병원과 함께하는 리더스 힐링 아카데미의 설립목적입니다.</p>
+                                    <p className='bold'>중앙대학교 광명병원과 함께하는 리더스 힐링 아카데미의 설립목적입니다.</p>
 
-                                    <Link legacyBehavior  href="/service-details">
+                                    <Link legacyBehavior  href="/about/purpose">
                                         <a className="read-more-btn">보러가기</a>
                                     </Link>
 
@@ -71,14 +71,14 @@ class ServicesSlider extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior  href="/service-details">
+                                        <Link legacyBehavior  href="/about-purpose">
                                             <a>설립취지</a>
                                         </Link>
                                     </h3>
 
-                                    <p>중앙대학교 광명병원과 함께하는 리더스 힐링 아카데미의 설립취지를 알려드립니다.</p>
+                                    <p className='bold'>중앙대학교 광명병원과 함께하는 리더스 힐링 아카데미의 설립취지를 알려드립니다.</p>
 
-                                    <Link legacyBehavior  href="/service-details">
+                                    <Link legacyBehavior  href="/about-purpose">
                                         <a className="read-more-btn">보러가기</a>
                                     </Link>
 
@@ -131,14 +131,14 @@ class ServicesSlider extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior  href="/service-details">
+                                        <Link legacyBehavior  href="/about/location">
                                             <a>오시는 길</a>
                                         </Link>
                                     </h3>
 
-                                    <p>중앙대학교 광명병원으로 오시는 길 입니다.<br/>&nbsp;</p>
+                                    <p className='bold'>중앙대학교 광명병원으로 오시는 길 입니다.<br/>&nbsp;</p>
 
-                                    <Link legacyBehavior  href="/service-details">
+                                    <Link legacyBehavior  href="/about/locatiom">
                                         <a className="read-more-btn">보러가기</a>
                                     </Link>
 

@@ -24,7 +24,7 @@ class WhyChooseUs extends Component {
                                     <div className="content">
                                         <span className="sub-title">Your Benefits</span>
                                         <h2>리더스 힐링 캠프</h2>
-                                        <p>리더스 힐링 아카데미는 건강한 생명 연장을 목표로하는 의료 교육 프로그램이며, 중앙대학교 광명병원이 협력하여 최고 수준의 의료 교육을 제공합니다.</p>
+                                        <p className='bold'>리더스 힐링 아카데미는 건강한 생명 연장을 목표로하는 의료 교육 프로그램이며, 중앙대학교 광명병원이 협력하여 최고 수준의 의료 교육을 제공합니다.</p>
 
                                         <ul className="features-list">
                                             <li>

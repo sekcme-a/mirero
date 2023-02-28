@@ -1,22 +1,21 @@
 import React, { useState } from 'react';
 import FsLightbox from 'fslightbox-react';
 
-const VideoArea = () => {
+//urlList  ['https://www.youtube.com/embed/Ogn8fOTtp6s',]
+const VideoArea = ({urlList, title, subtitle}) => {
     const [toggler, setToggler] = useState(false);
     return (
 		<>
             <FsLightbox
                 toggler={ toggler }
-                sources={ [
-                    'https://www.youtube.com/embed/Ogn8fOTtp6s',
-                ] }
+                sources={urlList }
             />
 
-			<section className="video-area ptb-100 pb-0">
-                <div className="container">
-                    <div className="video-content">
-                        <h2>리더스 힐링 캠프를 소개합니다</h2>
-                        <p className="keep-all bold">중앙대학교 광명병원 최고의 의료시설과 의료진와 함께하는 건강과 행복을 위한 국내 최고의 사회교육과정, 리더스 힐링 캠프를 소개 영상입니다.</p>
+			<section className="video-area2 ptb-100 pb-0">
+                <div className="container" >
+                    <div className="video-content2" >
+                        <h2>{title}</h2>
+                        <p className="keep-all bold">{subtitle}</p>
                     </div>
 
                     <div className="video-box">

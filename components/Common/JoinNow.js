@@ -9,7 +9,7 @@ class JoinNow extends Component {
                     <div className="container">
                         <div className="join-content keep-all">
                             <h2>리더스 힐링 아카데미와 함께하세요.</h2>
-                            <p>최고의 의료시설과 의료진, 원우분들과 함께하세요.</p>
+                            <p className='bold'>최고의 의료시설과 의료진, 원우분들과 함께하세요.</p>
 
                             <Link legacyBehavior  href="#" >
                                 <a className="default-btn">

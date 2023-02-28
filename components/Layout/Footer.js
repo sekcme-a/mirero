@@ -39,7 +39,7 @@ class Footer extends Component {
                                             </a>
                                         </Link>
 
-                                        <p className="keep-all">급변하는 대한민국의 주인공 귀하께서는 사회적 리더로서 정상에 오른만큼 권한과 책임이 동반되는 위치에 도달하셨습니다. 이제는 완벽한 유지관리로 더 나은 미래를 준비해야 될 때입니다. 그 중대한 시점에 건강과 행복을 위한 국내 최고의 사회교육과정을 소개합니다.</p>
+                                        <p className="keep-all bold">급변하는 대한민국의 주인공 귀하께서는 사회적 리더로서 정상에 오른만큼 권한과 책임이 동반되는 위치에 도달하셨습니다. 이제는 완벽한 유지관리로 더 나은 미래를 준비해야 될 때입니다. 그 중대한 시점에 건강과 행복을 위한 국내 최고의 사회교육과정을 소개합니다.</p>
                                     </div>
 
                                     {/* <ul className="social">
@@ -74,52 +74,28 @@ class Footer extends Component {
                                     <ul className="footer-quick-links">
                                         <li>
                                             <Link legacyBehavior  href="/">
-                                                <a>Home</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link legacyBehavior  href="/team">
-                                                <a>Our Team</a>
+                                                <a>메인화면</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link legacyBehavior  href="/about">
-                                                <a>About Us</a>
+                                                <a>기본소개</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link legacyBehavior  href="/news1">
-                                                <a>Latest News</a>
-                                            </Link>
-                                        </li>
-                                        {/* <li>
-                                            <Link legacyBehavior  href="/the-place">
-                                                <a>The Place</a>
+                                            <Link legacyBehavior  href="/about/video">
+                                                <a>소개영상</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link legacyBehavior  href="#">
-                                                <a>Privacy Policy</a>
+                                            <Link legacyBehavior  href="/special">
+                                                <a>특전</a>
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link legacyBehavior  href="/events">
-                                                <a>Our Events</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link legacyBehavior  href="#">
-                                                <a>Terms & Conditions</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link legacyBehavior  href="#">
-                                                <a>Our Packages</a>
-                                            </Link>
-                                        </li> */}
+                                    
                                         <li>
                                             <Link legacyBehavior  href="/contact">
-                                                <a>Contact Us</a>
+                                                <a>문의하기</a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -144,7 +120,7 @@ class Footer extends Component {
                         <div className="copyright-area">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-sm-6 col-md-6">
-                                    <p><i className="far fa-copyright"></i> 리더스 힐링 캠프</p>
+                                    <p className='bold'><i className="far fa-copyright "></i> 리더스 힐링 아카데미</p>
                                 </div>
 
                                 {/* <div className="col-lg-6 col-sm-6 col-md-6">

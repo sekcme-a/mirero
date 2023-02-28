@@ -9,6 +9,20 @@
   word-break: keep-all;
   font-size: 18px;
 }
+
+.greet_container{
+  padding: 50px 250px;
+}
+@media screen and (max-width:1400px) {
+  .greet_container{
+    padding:40px 100px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .greet_container{
+    padding:40px 40px;
+  } 
+}
 @media screen and (max-width: 520px){
   .navbar_img{
     width: 190px;
