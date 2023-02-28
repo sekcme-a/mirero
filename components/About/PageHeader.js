@@ -10,14 +10,14 @@ class PageHeader extends Component {
                         <div className="d-table-cell">
                             <div className="container">
                                 <div className="page-title-content">
-                                    <h2>About Us</h2>
+                                    <h2>소개</h2>
                                     <ul>
                                         <li>
                                             <Link legacyBehavior  href="/">
-                                                <a>Home</a>
+                                                <a>메인화면</a>
                                             </Link>
                                         </li>
-                                        <li>About Us</li>
+                                        <li>소개</li>
                                     </ul>
                                 </div>
                             </div>

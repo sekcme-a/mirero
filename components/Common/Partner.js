@@ -43,67 +43,58 @@ class Partner extends Component {
                         > 
                             <SwiperSlide>
                                 <div className="single-partner-item">
-                                    <a href="#" target='_blank'>
-                                        <img src="/images/partner/partner1.png" alt="image" />
+                                    <a href="https://gh.cauhs.or.kr/home/" target='_blank'>
+                                        <img src="/images/partner/001.png" alt="image" />
                                     </a> 
                                 </div>
                             </SwiperSlide>
                             
                             <SwiperSlide>
                                 <div className="single-partner-item">
-                                    <a href="#" target='_blank'>
-                                        <img src="/images/partner/partner2.png" alt="image" />
+                                    <a href="https://xn--vk1by6xrzecngs4l6obxj.com/" target='_blank'>
+                                        <img src="/images/partner/002.png" alt="image" />
                                     </a> 
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="single-partner-item">
-                                    <a href="#" target='_blank'>
-                                        <img src="/images/partner/partner3.png" alt="image" />
+                                    <a href="https://www.kmaeil.com/" target='_blank'>
+                                        <img src="/images/partner/003.png" alt="image" />
                                     </a> 
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="single-partner-item">
-                                    <a href="#" target='_blank'>
-                                        <img src="/images/partner/partner4.png" alt="image" />
+                                    <a href="http://www.westnews.co.kr/" target='_blank'>
+                                        <img src="/images/partner/004.png" alt="image" />
                                     </a> 
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="single-partner-item">
-                                    <a href="#" target='_blank'>
-                                        <img src="/images/partner/partner5.png" alt="image" />
+                                    <a href="http://asinews.co.kr/" target='_blank'>
+                                        <img src="/images/partner/005.png" alt="image" />
+                                    </a> 
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="single-partner-item">
+                                    <a href="http://www.shinews.co.kr/" target='_blank'>
+                                        <img src="/images/partner/006.png" alt="image" />
+                                    </a> 
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="single-partner-item">
+                                    <a href="https://gh.cauhs.or.kr/home/" target='_blank'>
+                                        <img src="/images/partner/001.png" alt="image" />
                                     </a> 
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide>
-                                <div className="single-partner-item">
-                                    <a href="#" target='_blank'>
-                                        <img src="/images/partner/partner6.png" alt="image" />
-                                    </a> 
-                                </div>
-                            </SwiperSlide>
-
-                            <SwiperSlide>
-                                <div className="single-partner-item">
-                                    <a href="#" target='_blank'>
-                                        <img src="/images/partner/partner7.png" alt="image" />
-                                    </a> 
-                                </div>
-                            </SwiperSlide>
-
-                            <SwiperSlide>
-                                <div className="single-partner-item">
-                                    <a href="#" target='_blank'>
-                                        <img src="/images/partner/partner5.png" alt="image" />
-                                    </a> 
-                                </div>
-                            </SwiperSlide>
                         </Swiper>
                     </div>
                 </section>

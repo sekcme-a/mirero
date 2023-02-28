@@ -5,6 +5,9 @@ import '../styles/flaticon.css';
 import '../styles/custom/global.css'
 import "swiper/css";
 import "swiper/css/bundle";
+
+
+import "styles/custom/loader.scss"
 // Global Style
 import '../styles/style.css';
 import '../styles/responsive.css';
@@ -43,7 +46,7 @@ export default class MyApp extends App {
                 <Component {...pageProps} />
                 
                 {/* Preloader */}
-                <Loader loading={!this.state.loading} />
+                <Loader loading={this.state.loading} />
 
                 {/* Go Top Button */}
                 <GoTop scrollStepInPx="50" delayInMs="16.66" />

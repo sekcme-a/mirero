@@ -50,7 +50,7 @@ class Index extends Component {
 
                 {/* <OurPlace /> */}
 
-                <OurBlog />
+                {/* <OurBlog /> */}
                 
                 <Footer />
             </>
