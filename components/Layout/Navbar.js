@@ -104,7 +104,7 @@ class Navbar extends Component {
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior  href="/event-details" activeClassName="active">
+                                                    <Link legacyBehavior  href="/about/location" activeClassName="active">
                                                         <a className="nav-link">오시는길</a>
                                                     </Link>
                                                 </li>
@@ -115,7 +115,7 @@ class Navbar extends Component {
 
 
                                         <li className="nav-item">
-                                            <Link legacyBehavior  href="#">
+                                            <Link legacyBehavior  href="/program/schedule">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     프로그램<i className="flaticon-down-arrow"></i>
                                                 </a>
@@ -123,13 +123,13 @@ class Navbar extends Component {
                                             <ul className="dropdown-menu">
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior  href="/about" activeClassName="active">
+                                                    <Link legacyBehavior  href="/program/schedule" activeClassName="active">
                                                         <a className="nav-link">교육 프로그램</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior  href="/about" activeClassName="active">
+                                                    <Link legacyBehavior  href="/program/team" activeClassName="active">
                                                         <a className="nav-link">강사진 소개</a>
                                                     </Link>
                                                 </li>

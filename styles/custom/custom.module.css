@@ -13,15 +13,71 @@
 .greet_container{
   padding: 50px 250px;
 }
+
+
+.map_container{
+  padding: 50px 150px;
+}
+.map_marker{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+.map_marker a{
+  margin-top:-5px;
+  text-decoration: underline;
+  color: blue;
+  font-weight: normal;
+}
+.map_footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.schedule_container{
+  padding: 0 150px;
+}
+.schedule_container p{
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  word-break: keep-all;
+  /* padding: 0 20px */
+}
+.schedule_button{
+  color: #ff5d22;
+  font-weight: 800;
+}
 @media screen and (max-width:1400px) {
   .greet_container{
     padding:40px 100px;
+  }
+  .map_container{
+    padding: 50px 80px;
+  }
+  .schedule_container{
+    padding: 0 10px;
   }
 }
 @media screen and (max-width: 800px) {
   .greet_container{
     padding:40px 40px;
   } 
+  .map_container{
+    padding: 40px 10px;
+  }
+  .schedule_container{
+    padding: 0 10px;
+  }
+  .schedule_container p{
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 520px){
   .navbar_img{

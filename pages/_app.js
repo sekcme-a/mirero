@@ -16,6 +16,7 @@ import App from 'next/app';
 import Head from 'next/head';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
+import Script from "next/script"
 
 export default class MyApp extends App {
     // Preloader
@@ -41,7 +42,9 @@ export default class MyApp extends App {
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <title>Tuam - Office Space & Property Rental React Template</title>
+                    
                 </Head>
+  
 
                 <Component {...pageProps} />
                 

@@ -3154,22 +3154,6 @@ Event Area CSS
   display: none;
 }
 
-.single-event-box .event-image .image.bg1 {
-  background-image: url(/images/event/event1.jpg);
-}
-
-.single-event-box .event-image .image.bg2 {
-  background-image: url(/images/event/event2.jpg);
-}
-
-.single-event-box .event-image .image.bg3 {
-  background-image: url(/images/event/event3.jpg);
-}
-
-.single-event-box .event-image .image.bg4 {
-  background-image: url(/images/event/event4.jpg);
-}
-
 .single-event-box .event-content {
   -ms-flex: 0 0 50%;
   -webkit-box-flex: 0;
@@ -3178,7 +3162,7 @@ Event Area CSS
 }
 
 .single-event-box .event-content .content {
-  padding: 40px 30px;
+  padding: 30px 30px;
 }
 
 .single-event-box .event-content .content .date {
