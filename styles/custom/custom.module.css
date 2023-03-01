@@ -79,11 +79,14 @@
     font-size: 15px;
   }
 }
-@media screen and (max-width: 520px){
+@media screen and (max-width: 576px){
   .navbar_img{
     width: 190px;
   }
   .banner_sub_title{
     font-size: 18px !important;
+  }
+  .special_container{
+    display: none;
   }
 }

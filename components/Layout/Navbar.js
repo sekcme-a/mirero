@@ -144,7 +144,7 @@ class Navbar extends Component {
 
 
                                         <li className="nav-item">
-                                            <Link legacyBehavior  href="/the-place" activeClassName="active">
+                                            <Link legacyBehavior  href="/special" activeClassName="active">
                                                 <a className="nav-link">특전</a>
                                             </Link>
                                         </li>

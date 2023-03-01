@@ -1507,15 +1507,17 @@ About Area CSS
   z-index: 1;
   border: 5px solid #ffffff;
   border-left: none;
+  width: 440px;
 }
 
 .about-image .img3 {
   position: absolute;
   left: 0;
-  bottom: 55px;
+  bottom: 33px;
   z-index: 1;
   border: 5px solid #ffffff;
   border-left: none;
+  width: 500px;
 }
 
 .about-content {

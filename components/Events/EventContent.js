@@ -250,7 +250,7 @@ class EventContent extends Component {
         
                                             {item.url && 
                                                 <Link legacyBehavior  href={item.url}>
-                                                    <a className={styles.schedule_button}>
+                                                    <a className={styles.schedule_button} target="_blank">
                                                         의료진 소개
                                                     </a>
                                                 </Link>
