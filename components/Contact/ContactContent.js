@@ -10,8 +10,8 @@ class ContactContent extends Component {
                         <div className="row">
                             <div className="col-lg-6 col-md-12">
                                 <div className="section-title">
-                                    <span className="sub-title">Contact Us</span>
-                                    <h2>Say Hello</h2>
+                                    <span className="sub-title">문의하기</span>
+                                    <h2>아카데미에 대해 문의하세요</h2>
                                     <p>Your email address will not be published. We promise not to spam!</p>
                                 </div>
 
@@ -21,8 +21,8 @@ class ContactContent extends Component {
                                             <div className="icon">
                                                 <i className="flaticon-location"></i>
                                             </div>
-                                            <span>Address</span>
-                                            CA 560 Bush St & 20th Ave, Apt 5 San Francisco, 230909, Canada
+                                            <span>주소</span>
+                                            서울특별시 영등포구 버드나루로88, 101호
                                         </li>
 
                                         <li>
@@ -30,8 +30,8 @@ class ContactContent extends Component {
                                                 <i className="flaticon-email"></i>
                                             </div>
                                             <span>Email</span>
-                                            tuam@email.com <br />
-                                            fax@email.com
+                                            kyunsik@hanmail.net<br />
+                                            {/* fax@email.com */}
                                         </li>
 
                                         <li>
@@ -39,12 +39,12 @@ class ContactContent extends Component {
                                                 <i className="fas fa-phone-volume"></i>
                                             </div>
                                             <span>Phone</span>
-                                            +44 587 154756 <br />
-                                            +55 5555 14574
+                                            010-5339-6943 <br />
+                                            Fax.0504 411 0112
                                         </li>
                                     </ul>
 
-                                    <ul className="social">
+                                    {/* <ul className="social">
                                         <li>
                                             <a href="https://www.facebook.com/" target="_blank">
                                                 <i className="fab fa-facebook-f"></i>
@@ -65,15 +65,15 @@ class ContactContent extends Component {
                                                 <i className="fab fa-instagram"></i>
                                             </a>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
 
                             <div className="col-lg-6 col-md-12">
                                 <div className="section-title">
-                                    <span className="sub-title">Have a Question?</span>
-                                    <h2>Send a Message</h2>
-                                    <p>Your email address will not be published. We promise not to spam!</p>
+                                    <span className="sub-title">궁금하신 사항이 있나요?</span>
+                                    <h2>궁금하신 내용에 대해 작성해주세요</h2>
+                                    <p>빠른 시일 내에 답장해드리겠습니다.</p>
                                 </div>
 
                                 <ContactForm />

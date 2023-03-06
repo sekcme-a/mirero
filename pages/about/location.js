@@ -25,7 +25,7 @@ const Location = () => {
 
                 <PageHeader title="오시는 길" subtitle="메인화면" location="오시는 길"/>
                 
-                <Map locX="126.8859" locY="37.4245"/>
+                <Map locX="126.9272" locY="37.5170"/>
                 
                 <Footer />
             </>

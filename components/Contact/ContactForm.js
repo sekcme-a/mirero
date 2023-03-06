@@ -122,7 +122,7 @@ const ContactForm = () => {
                     </div>
                     <div className="col-lg-12 col-sm-12">
                         <button type="submit" className="default-btn">
-                            Send Message <span></span>
+                            문의하기 <span></span>
                         </button>
                     </div>
                 </div>

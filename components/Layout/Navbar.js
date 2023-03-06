@@ -150,14 +150,14 @@ class Navbar extends Component {
                                         </li>
 
 
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <Link legacyBehavior  href="/the-place" activeClassName="active">
                                                 <a className="nav-link">아카데미 소식</a>
                                             </Link>
-                                        </li>
+                                        </li> */}
 
 
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <Link legacyBehavior  href="#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     신청하기<i className="flaticon-down-arrow"></i>
@@ -178,12 +178,12 @@ class Navbar extends Component {
                                                 </li>
 
                                             </ul>
-                                        </li>
+                                        </li> */}
 
 
 
                                         <li className="nav-item">
-                                            <Link legacyBehavior  href="/the-place" activeClassName="active">
+                                            <Link legacyBehavior  href="/contact" activeClassName="active">
                                                 <a className="nav-link">문의하기</a>
                                             </Link>
                                         </li>

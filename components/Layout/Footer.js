@@ -107,11 +107,11 @@ class Footer extends Component {
                                     <h3>Contact Info</h3>
 
                                     <ul className="footer-contact-info">
-                                        <li><span>위치:</span>경기도 광명시 일직동 501 중앙대학교 광명병원</li>
+                                        <li><span>위치:</span>서울특별시 영등포구 버드나루로88, 101호</li>
                                         <li><span>이메일:</span> <a href="mailto:kyunsik@hanmail.net">kyunsik@hanmail.net </a></li>
                                         <li><span>전화번호:</span> <a href="tel:010-5339-6943">010-5339-6943</a></li>
                                         <li><span>Fax:</span> <a>0504 411 0112</a></li>
-                                        <li><a href="https://naver.me/54VkQpm6" target="_blank">네이버 지도에서 위치 확인</a></li>
+                                        <li><a href="https://map.naver.com/v5/search/%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC%EB%B2%84%EB%93%9C%EB%82%98%EB%A3%A8%EB%A1%9C88%EC%9D%B8%EB%94%B0%EB%A5%B4%EC%8B%9C%EC%95%84%EB%B9%8C%EB%94%A9/place/1106183029?c=15,0,0,0,dh&isCorrectAnswer=true" target="_blank">네이버 지도에서 위치 확인</a></li>
                                     </ul>
                                 </div>
                             </div>
