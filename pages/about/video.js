@@ -25,7 +25,7 @@ class Greet extends Component {
                 
                 <VideoArea2 urlList={ [
                     'https://www.youtube.com/embed/Ogn8fOTtp6s',
-                ]} title="리더스 힐링 캠프를 소개합니다" subtitle="중앙대학교 광명병원 최고의 의료시설과 의료진와 함께하는 건강과 행복을 위한 국내 최고의 사회교육과정, 리더스 힐링 캠프를 소개 영상입니다."
+                ]} title="리더스 힐링 아카데미를 소개합니다" subtitle="중앙대학교 광명병원 최고의 의료시설과 의료진와 함께하는 건강과 행복을 위한 국내 최고의 사회교육과정, 리더스 힐링 아카데미를 소개 영상입니다."
                     thumbnail="/images/video-img.png"
                 />
 

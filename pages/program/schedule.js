@@ -21,7 +21,7 @@ class Greet extends Component {
             <>
                 <Navbar />
 
-                <PageHeader title="리더스 힐링 캠프 프로그램" subtitle="메인화면" location="프로그램 소개"/>
+                <PageHeader title="리더스 힐링 아카데미 프로그램" subtitle="메인화면" location="프로그램 소개"/>
                 
                 <EventContent />
                 
