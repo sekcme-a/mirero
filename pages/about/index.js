@@ -17,7 +17,7 @@ class About extends Component {
             <>
                 <Navbar />
 
-                <PageHeader title="리더스힐링아카데미 소개" subtitle="메인화면" location="기본소개"/>
+                <PageHeader title="사단법인 미래로 소개" subtitle="메인화면" location="기본소개"/>
 
                 <AboutText />
                 <WhyChooseUs />

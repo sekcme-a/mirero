@@ -6,7 +6,7 @@ import styles from "styles/custom/custom.module.css"
 const data = [
     {
         title: "개강식",
-        content: "리더스 힐링 아카데미 개강식 (병원장님 인사, 홍보영상 시청)",
+        content: "사단법인 미래로 개강식 (병원장님 인사, 홍보영상 시청)",
         year: 2023,
         month: "April(4월)",
         day: 4,

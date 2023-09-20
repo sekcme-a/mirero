@@ -9,7 +9,7 @@ class AboutText extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">
                                 <div className="about-title">
-                                    <span>리더스 힐링 아카데미 소개</span>
+                                    <span>사단법인 미래로 소개</span>
                                     <h2>건강과 행복을 위한 국내 최고의 사회교육과정을 소개합니다</h2>
                                 </div>
                             </div>

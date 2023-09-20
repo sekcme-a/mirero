@@ -10,7 +10,7 @@ const Banner = () => {
     const [toggler2, setToggler2] = useState(false)
     return (
 		<>
-            <FsLightbox
+            {/* <FsLightbox
                 toggler={ toggler }
                 sources={ [
                     'https://www.youtube.com/embed/Ogn8fOTtp6s',
@@ -21,7 +21,7 @@ const Banner = () => {
                 sources={ [
                     'https://www.youtube.com/embed/7GU0BkGY8Iw',
                 ] }
-            />
+            /> */}
  
             <Swiper 
                 navigation={true} 
@@ -39,20 +39,20 @@ const Banner = () => {
                             <div className="d-table-cell">
                                 <div className="container">
                                     <div className="main-banner-content">
-                                        <span className={`sub-title ${styles.banner_sub_title}`}>대한민국 최고의 사회교육과정</span>
-                                        <h1>리더스 힐링 아카데미와<br/> 함께 하세요</h1>
+                                        <span className={`sub-title ${styles.banner_sub_title}`}>메인배너 부제목A</span>
+                                        <h1>메인베너 제목A</h1>
 
                                         <div className="btn-box">
                                             <Link legacyBehavior  href="/about">
-                                                <a className="default-btn">리더스 힐링 아카데미 소개<span></span></a>
+                                                <a className="default-btn">사단법인 미래로 단체 소개<span></span></a>
                                             </Link>
 
-                                            <div
+                                            {/* <div
                                                 className="optional-btn"
                                                 onClick={ () => setToggler(!toggler) }
                                             > 
                                                 <i className="flaticon-play-button"></i> 소개 영상 보기
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -67,20 +67,20 @@ const Banner = () => {
                             <div className="d-table-cell">
                                 <div className="container">
                                     <div className="main-banner-content">
-                                        <span className={`sub-title ${styles.banner_sub_title}`}>최고의 의료시설과 의료진으로</span>
-                                        <h1>대한민국 리더를 위한 맞춤형 <br/>헬스 케어를 제공합니다.</h1>
+                                        <span className={`sub-title ${styles.banner_sub_title}`}>메인배너 부제목B</span>
+                                        <h1>메인배너 제목B</h1>
 
                                         <div className="btn-box">
                                             <Link legacyBehavior  href="/program/team">
-                                                <a className="default-btn">강사진 소개<span></span></a>
+                                                <a className="default-btn">사업 소개<span></span></a>
                                             </Link>
 
-                                            <div
+                                            {/* <div
                                                 className="optional-btn"
                                                 onClick={ () => setToggler2(!toggler2) }
                                             > 
                                                 <i className="flaticon-play-button"></i> 병원 소개 영상 보기
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>

@@ -30,7 +30,7 @@ class Index extends Component {
 
                 <ServicesSlider />
 
-                <VideoArea />
+                {/* <VideoArea /> */}
 
                 
 

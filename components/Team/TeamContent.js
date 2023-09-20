@@ -84,7 +84,7 @@ class TeamContent extends Component {
             
                 <div className="team-area pt-100 pb-70">
                     <div className="container">
-                    <p style={{fontSize:"18px", fontWeight:"700"}} className="keep-all">리더스 힐링 아카데미는 중앙대학교 광명병원 최고의 의료시설와 의료진과 함께합니다.</p>
+                    <p style={{fontSize:"18px", fontWeight:"700"}} className="keep-all">사단법인 미래로는 중앙대학교 광명병원 최고의 의료시설와 의료진과 함께합니다.</p>
                         <div className="row">
                             {data.map((item, index) => {
                                 return(

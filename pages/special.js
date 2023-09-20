@@ -13,7 +13,7 @@ class Greet extends Component {
             <>
                 <Navbar />
           
-                <PageHeader title="리더스 힐링 아카데미 원우 특전" subtitle="메인화면" location="특전"/>
+                <PageHeader title="사단법인 미래로 원우 특전" subtitle="메인화면" location="특전"/>
                 
                 <AboutUs />
                 

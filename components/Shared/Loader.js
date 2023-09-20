@@ -50,7 +50,7 @@ class Loader extends Component {
                     </svg>
                 </div>
 
-                <div style={{width:"100%", textAlign:"center", marginTop:"10px", fontSize:"17px"}}>리더스 힐링 아카데미</div>
+                <div style={{width:"100%", textAlign:"center", marginTop:"10px", fontSize:"17px"}}>사단법인 미래로</div>
 
                 </div>
           </div>

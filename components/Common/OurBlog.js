@@ -9,7 +9,7 @@ class OurBlog extends Component {
                     <div className="container">
                         <div className="section-title">
                             <span className="sub-title">Leaders Healing Academy</span>
-                            <h2>리더스 힐링 아카데미 소식</h2>
+                            <h2>사단법인 미래로 소식</h2>
                             <p>리더스 힐리 아카데미의 최근 소식을 확인하세요.</p>
                         </div>
 

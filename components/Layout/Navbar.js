@@ -75,7 +75,7 @@ class Navbar extends Component {
                                         <li className="nav-item">
                                             <Link legacyBehavior  href="#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    소개<i className="flaticon-down-arrow"></i>
+                                                    사단법인 미래로<i className="flaticon-down-arrow"></i>
                                                 </a>
                                             </Link>
                                             <ul className="dropdown-menu">
@@ -98,23 +98,31 @@ class Navbar extends Component {
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior  href="/about/video" activeClassName="active">
-                                                        <a className="nav-link">소개영상</a>
+                                                    <Link legacyBehavior  href="/about/history" activeClassName="active">
+                                                        <a className="nav-link">연혁</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior  href="/about/location" activeClassName="active">
-                                                        <a className="nav-link">오시는길</a>
+                                                    <Link legacyBehavior  href="/about/team" activeClassName="active">
+                                                        <a className="nav-link">조직도</a>
                                                     </Link>
                                                 </li>
                                             </ul>
                                         </li>
 
 
-
-
                                         <li className="nav-item">
+                                            <Link legacyBehavior  href="/business" activeClassName="active">
+                                                <a className="nav-link">사업소개</a>
+                                            </Link>
+                                        </li>
+
+
+
+
+
+                                        {/* <li className="nav-item">
                                             <Link legacyBehavior  href="/program/schedule">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     프로그램<i className="flaticon-down-arrow"></i>
@@ -147,7 +155,7 @@ class Navbar extends Component {
                                             <Link legacyBehavior  href="/special" activeClassName="active">
                                                 <a className="nav-link">특전</a>
                                             </Link>
-                                        </li>
+                                        </li> */}
 
 
                                         {/* <li className="nav-item">
@@ -246,7 +254,7 @@ class Navbar extends Component {
                                                 <i className="flaticon-call"></i>
                                             </div>
                                             상담문의:
-                                            <span className="number">010-5339-6943</span>
+                                            <span className="number">010-1234-5678</span>
                                         </div>
                                     </div>
                                 </div>

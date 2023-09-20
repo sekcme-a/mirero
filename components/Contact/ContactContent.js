@@ -11,7 +11,7 @@ class ContactContent extends Component {
                             <div className="col-lg-6 col-md-12">
                                 <div className="section-title">
                                     <span className="sub-title">문의하기</span>
-                                    <h2>아카데미에 대해 문의하세요</h2>
+                                    <h2>사단법인 미래로 대해 문의하세요</h2>
                                     <p>Your email address will not be published. We promise not to spam!</p>
                                 </div>
 
@@ -22,7 +22,7 @@ class ContactContent extends Component {
                                                 <i className="flaticon-location"></i>
                                             </div>
                                             <span>주소</span>
-                                            서울특별시 영등포구 버드나루로88, 101호
+                                            주소
                                         </li>
 
                                         <li>
@@ -30,7 +30,7 @@ class ContactContent extends Component {
                                                 <i className="flaticon-email"></i>
                                             </div>
                                             <span>Email</span>
-                                            kyunsik@hanmail.net<br />
+                                            이메일<br />
                                             {/* fax@email.com */}
                                         </li>
 
@@ -39,8 +39,8 @@ class ContactContent extends Component {
                                                 <i className="fas fa-phone-volume"></i>
                                             </div>
                                             <span>Phone</span>
-                                            010-5339-6943 <br />
-                                            Fax.0504 411 0112
+                                            010-1234-5678 <br />
+                                            Fax.0102 020 040
                                         </li>
                                     </ul>
 

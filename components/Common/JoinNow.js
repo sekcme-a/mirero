@@ -8,12 +8,13 @@ class JoinNow extends Component {
                 <section className="join-area ptb-100">
                     <div className="container">
                         <div className="join-content keep-all">
-                            <h2>리더스 힐링 아카데미와 함께하세요.</h2>
-                            <p className='bold'>최고의 의료시설과 의료진, 원우분들과 함께하세요.</p>
+                            <h2>사단법인 미래로와 함께하세요.</h2>
+                            <p className='bold'>사단법인 미래로와 함께하세요. 우리의 사회와 미래를 밝게 만들기 위한 소중한 노력을 후원해주십시오. 함께하는 여러분의 지지로 더 나은 세상을 만들어갑니다.
+                            후원_문구</p>
 
-                            <Link legacyBehavior  href="#" >
+                            <Link legacyBehavior  href="/support/main" >
                                 <a className="default-btn">
-                                    등록하기 <i className="flaticon-right-chevron"></i> 
+                                    후원하러 가기 <i className="flaticon-right-chevron"></i> 
                                     <span></span>
                                 </a>
                             </Link>

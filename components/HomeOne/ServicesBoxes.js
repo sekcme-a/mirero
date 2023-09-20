@@ -13,25 +13,25 @@ class ServicesBoxes extends Component {
 
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-box">
-                                    <img src="/images/services/services2.png" alt="image" />
+                                    <img src="/images/services/002.jpg" alt="image" />
 
                                     <div className="content">
                                         <h3>
-                                            <Link legacyBehavior  href="/program/schedule">
-                                                <a>교육 프로그램</a>
+                                            <Link legacyBehavior  href="/about/introduce">
+                                                <a>단체 소개</a>
                                             </Link>
                                         </h3>
                                     </div>
 
                                     <div className="hover-content">
                                         <h3>
-                                            <Link legacyBehavior  href="/program/schedule">
-                                                <a>교육 프로그램</a>
+                                            <Link legacyBehavior  href="/about/introduce">
+                                                <a>단체 소개</a>
                                             </Link>
                                         </h3>
-                                        <p className={`${styles.servciesBoxes_p} bold` }>최고의 의료시설과 의료진으로 구성된 리더스 힐링 아카데미의 프로그램을 확인하세요.</p>
+                                        <p className={`${styles.servciesBoxes_p} bold` }>사단법인 미래로 단체를 소개합니다.</p>
 
-                                        <Link legacyBehavior  href="/program/schedule">
+                                        <Link legacyBehavior  href="/about/introduce">
                                             <a className="read-more-btn">자세히 보기</a>
                                         </Link>
                                     </div>
@@ -41,12 +41,12 @@ class ServicesBoxes extends Component {
 
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-box">
-                                    <img src="/images/services/services1.png" alt="image" />
+                                    <img src="/images/services/001.jpg" alt="image" />
 
                                     <div className="content">
                                         <h3>
                                             <Link legacyBehavior  href="/about/greet">
-                                                <a>원장 소개 및 인사말</a>
+                                                <a>미래로 인사말</a>
                                             </Link>
                                         </h3>
                                     </div>
@@ -54,10 +54,10 @@ class ServicesBoxes extends Component {
                                     <div className="hover-content">
                                         <h3>
                                             <Link legacyBehavior  href="/about/greet">
-                                                <a>원장 소개 및 인삿말</a>
+                                                <a>미래로 인삿말</a>
                                             </Link>
                                         </h3>
-                                        <p className={`${styles.servciesBoxes_p} bold` }>리더스 힐링 아카데미의 원장 소개와 인삿말을 확인하세요.</p>
+                                        <p className={`${styles.servciesBoxes_p} bold` }>사단법인 미래로 소개와 인사말을 확인하세요.</p>
 
                                         <Link legacyBehavior  href="/about/greet">
                                             <a className="read-more-btn">자세히 보기</a>
@@ -70,23 +70,23 @@ class ServicesBoxes extends Component {
 
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-box">
-                                    <img src="/images/services/services3.png" alt="image" />
+                                    <img src="/images/services/003.jpg" alt="image" />
 
                                     <div className="content">
                                         <h3>
                                             <Link legacyBehavior  href="/program/team">
-                                                <a>강사진 소개</a>
+                                                <a>조직도 소개</a>
                                             </Link>
                                         </h3>
                                     </div>
 
                                     <div className="hover-content">
                                         <h3>
-                                            <Link legacyBehavior  href="/program/team">
-                                                <a>강사진 소개</a>
+                                            <Link legacyBehavior  href="/about/team">
+                                                <a>조직도 소개</a>
                                             </Link>
                                         </h3>
-                                        <p className={`${styles.servciesBoxes_p} bold` }>리더스 힐링 아카데미와 함께하는 중앙대학교 광명병원의 의료진을 소개합니다.</p>
+                                        <p className={`${styles.servciesBoxes_p} bold` }>사단법인 미래로의 조직도를 소개합니다.</p>
 
                                         <Link legacyBehavior  href="/program/team">
                                             <a className="read-more-btn">자세히 보기</a>

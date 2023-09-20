@@ -41,14 +41,14 @@ class ServicesSlider extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior  href="/about/purpose">
-                                            <a>설립목적</a>
+                                        <Link legacyBehavior  href="/business/introduce">
+                                            <a>사업 소개</a>
                                         </Link>
                                     </h3>
 
-                                    <p className='bold'>중앙대학교 광명병원과 함께하는 리더스 힐링 아카데미의 설립목적입니다.</p>
+                                    <p className='bold'>다문화 기자단, 동아리지원사업 등 사단법인 미래로의 사업을 소개합니다. </p>
 
-                                    <Link legacyBehavior  href="/about/purpose">
+                                    <Link legacyBehavior  href="/business/introduce">
                                         <a className="read-more-btn">보러가기</a>
                                     </Link>
 
@@ -62,7 +62,7 @@ class ServicesSlider extends Component {
                             <SwiperSlide>
                                 <div className="single-services-box">
                                     <div className="icon">
-                                        <i className="flaticon-layers"></i>
+                                        <i className="flaticon-check-mark"></i>
 
                                         <div className="icon-bg">
                                             <img src="/images/icon-bg1.png" alt="image" />
@@ -71,14 +71,14 @@ class ServicesSlider extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior  href="/about/purpose">
-                                            <a>설립취지</a>
+                                        <Link legacyBehavior  href="/announcement">
+                                            <a>공지사항</a>
                                         </Link>
                                     </h3>
 
-                                    <p className='bold'>중앙대학교 광명병원과 함께하는 리더스 힐링 아카데미의 설립취지를 알려드립니다.</p>
+                                    <p className='bold'>사단법인 미래로의 공지사항으로 최근 소식들을 확인하세요!</p>
 
-                                    <Link legacyBehavior  href="/about/purpose">
+                                    <Link legacyBehavior  href="/announcement">
                                         <a className="read-more-btn">보러가기</a>
                                     </Link>
 
@@ -122,7 +122,7 @@ class ServicesSlider extends Component {
                             <SwiperSlide>
                                 <div className="single-services-box">
                                     <div className="icon">
-                                        <i className="flaticon-location"></i>
+                                        <i className="flaticon-award"></i>
 
                                         <div className="icon-bg">
                                             <img src="/images/icon-bg1.png" alt="image" />
@@ -131,14 +131,14 @@ class ServicesSlider extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior  href="/about/location">
-                                            <a>오시는 길</a>
+                                        <Link legacyBehavior  href="/support/main">
+                                            <a>후원 신청</a>
                                         </Link>
                                     </h3>
 
-                                    <p className='bold'>중앙대학교 광명병원으로 오시는 길 입니다.<br/>&nbsp;</p>
+                                    <p className='bold'>사단법인 미래로에 후원신청을 하실 수 있습니다!<br/>&nbsp;</p>
 
-                                    <Link legacyBehavior  href="/about/location">
+                                    <Link legacyBehavior  href="/support/main">
                                         <a className="read-more-btn">보러가기</a>
                                     </Link>
 
