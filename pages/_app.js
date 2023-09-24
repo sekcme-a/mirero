@@ -39,10 +39,9 @@ export default class MyApp extends App {
         return (
             <>
                 <Head>
-                    <meta charSet="utf-8" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1" />
-                    <title>사단법인 미래로</title>
-                    
+                    <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
+                    <link rel="canonical" href="https://miraero.org"></link>
+                    <meta name="robots" content="index,follow"></meta>
                 </Head>
   
 

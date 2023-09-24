@@ -2,15 +2,35 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
+
+
+const PARTNER_DATA = [
+    {
+        url:"http://www.seasondaily.net",
+        img:"/images/partner/seasondaily.png",
+    },
+    {
+        url:"https://www.kmcn.kr",
+        img:"/images/partner/kmcn.png",
+    },
+    {
+        url:"https://www.acrc.go.kr/",
+        img:"/images/partner/acrc.png",
+    },
+    {
+        url:"https://www.gg.go.kr/",
+        img:"/images/partner/gg.png",
+    },
+]
 class Partner extends Component {
     render() {
         return (
             <>
-                <section className="partner-area ptb-100 bg-f8f8f8">
+                <section className="partner-area ptb-100 bg-f8f8f8" style={{padding:"30px 0 "}}>
                     <div className="container">
-                        <div className="partner-title">
+                        {/* <div className="partner-title">
                             <h2>여러 기관과 함께합니다.</h2>
-                        </div>
+                        </div> */}
 
                         <Swiper
                             spaceBetween={30}
@@ -22,16 +42,16 @@ class Partner extends Component {
                                     slidesPerView: 2,
                                 },
                                 576: {
-                                    slidesPerView: 3,
+                                    slidesPerView: PARTNER_DATA.length-2,
                                 },
                                 768: {
-                                    slidesPerView: 4,
+                                    slidesPerView: PARTNER_DATA.length-1,
                                 },
                                 992: {
-                                    slidesPerView: 5,
+                                    slidesPerView: PARTNER_DATA.length,
                                 },
                                 1200: {
-                                    slidesPerView: 7,
+                                    slidesPerView: PARTNER_DATA.length,
                                 },
                             }}
                             autoplay={{
@@ -41,59 +61,17 @@ class Partner extends Component {
                             modules={[Autoplay]} 
                             className="partner-slides"
                         > 
-                            <SwiperSlide>
-                                <div className="single-partner-item">
-                                    <a href="https://gh.cauhs.or.kr/home/" target='_blank'>
-                                        <img src="/images/partner/001.png" alt="image" />
-                                    </a> 
-                                </div>
-                            </SwiperSlide>
-                            
-                            <SwiperSlide>
-                                <div className="single-partner-item">
-                                    <a href="https://xn--vk1by6xrzecngs4l6obxj.com/" target='_blank'>
-                                        <img src="/images/partner/002.png" alt="image" />
-                                    </a> 
-                                </div>
-                            </SwiperSlide>
-
-                            <SwiperSlide>
-                                <div className="single-partner-item">
-                                    <a href="https://www.kmaeil.com/" target='_blank'>
-                                        <img src="/images/partner/003.png" alt="image" />
-                                    </a> 
-                                </div>
-                            </SwiperSlide>
-
-                            <SwiperSlide>
-                                <div className="single-partner-item">
-                                    <a href="http://www.westnews.co.kr/" target='_blank'>
-                                        <img src="/images/partner/004.png" alt="image" />
-                                    </a> 
-                                </div>
-                            </SwiperSlide>
-
-                            <SwiperSlide>
-                                <div className="single-partner-item">
-                                    <a href="http://asinews.co.kr/" target='_blank'>
-                                        <img src="/images/partner/005.png" alt="image" />
-                                    </a> 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="single-partner-item">
-                                    <a href="http://www.shinews.co.kr/" target='_blank'>
-                                        <img src="/images/partner/006.png" alt="image" />
-                                    </a> 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="single-partner-item">
-                                    <a href="https://gh.cauhs.or.kr/home/" target='_blank'>
-                                        <img src="/images/partner/001.png" alt="image" />
-                                    </a> 
-                                </div>
-                            </SwiperSlide>
+                            {PARTNER_DATA.map((item, index) => {
+                                return(
+                                    <SwiperSlide key={index}>
+                                        <div className="single-partner-item">
+                                            <a href={item.url} target='_blank'>
+                                                <img src={item.img} alt="image" />
+                                            </a> 
+                                        </div>
+                                    </SwiperSlide>
+                                )
+                            })}
 
                         </Swiper>
                     </div>

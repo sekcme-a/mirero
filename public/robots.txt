@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://miraero.org/sitemap.xml

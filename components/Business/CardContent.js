@@ -1,12 +1,15 @@
 import Link from "next/link"
 
 
-const CardContent = ({icon, title, content, link}) => {
+const CardContent = ({img, title, content, link}) => {
   return(
     <>
-            <div className="single-services-box" style={{marginRight:"10px"}}>
+            <div className="single-services-box" style={{marginRight:"10px", minHeight:"400px"}}>
               <div className="icon">
-                  <i className={`${icon}`}></i>
+                  {/* <i className={`${icon}`}></i> */}
+                  <i>
+                    <img src={img} alt={title}  style={{borderRadius:'5px', overflow:"hidden", height:"200px", objectFit:"contain"}}/>
+                  </i>
                   <div className="icon-bg">
                       <img src="/images/icon-bg1.png" alt="image" />
                       <img src="/images/icon-bg2.png" alt="image" />
@@ -14,16 +17,14 @@ const CardContent = ({icon, title, content, link}) => {
               </div>
 
               <h3>
-                  <Link href="/service-details" legacyBehavior>
-                      <a>{title}</a>
-                  </Link>
+                <a>{title}</a>
               </h3>
 
               <p style={{fontWeight:'normal', whiteSpace:"pre-line", minHeight:"60px"}}>{content}</p>
 
-              <Link href={link} legacyBehavior target="_blank">
+              {/* <Link href={link} legacyBehavior target="_blank">
                   <a className="read-more-btn" target="_blank">자세히 보기</a>
-              </Link>
+              </Link> */}
 
               <div className="box-shape">
                   <img src="/images/box-shape1.png" alt="image" />

@@ -10,6 +10,8 @@ import FeedbackSlider from 'components/Common/FeedbackSlider';
 import Partner from 'components/Common/Partner';
 import Footer from 'components/Layout/Footer';
 import WhyChooseUs from 'components/HomeOne/WhyChooseUs';
+import HeadMeta from 'components/HeadMeta';
+
 
 import styles from "styles/custom/custom.module.css"
 
@@ -17,6 +19,13 @@ class Greet extends Component {
     render() {
         return (
             <>
+
+                <HeadMeta 
+                    title="인사말-사단법인 미래로"
+                    description="사단법인 미래로의 인사말을 확인하세요."
+                    url="https://miraero.org/about/greet"
+                />
+
                 <Navbar />
 
                 <PageHeader title="사단법인 미래로 인사말" subtitle="메인화면" location="인사말"/>

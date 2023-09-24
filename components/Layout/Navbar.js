@@ -61,7 +61,7 @@ class Navbar extends Component {
                                     <span className="icon-bar bottom-bar"></span>
                                 </button>
 
-                                <div className={classOne} id="navbarSupportedContent">
+                                <div className={classOne} id="navbarSupportedContent" style={{marginRight:"30px"}}>
                                     <ul className="navbar-nav">
                                         
                                         <li className="nav-item">
@@ -191,10 +191,57 @@ class Navbar extends Component {
 
 
                                         <li className="nav-item">
+                                            <Link legacyBehavior  href="/announcement" activeClassName="active">
+                                                <a className="nav-link">공지사항</a>
+                                            </Link>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <Link legacyBehavior  href="#">
+                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                    후원신청<i className="flaticon-down-arrow"></i>
+                                                </a>
+                                            </Link>
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/apply/main" activeClassName="active">
+                                                        <a className="nav-link">후원신청</a>
+                                                    </Link>
+                                                </li>
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/apply/main" activeClassName="active">
+                                                        <a className="nav-link">정기후원</a>
+                                                    </Link>
+                                                </li>
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/apply/main" activeClassName="active">
+                                                        <a className="nav-link">일시후원</a>
+                                                    </Link>
+                                                </li>
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/apply/main" activeClassName="active">
+                                                        <a className="nav-link">기업후원</a>
+                                                    </Link>
+                                                </li>
+                                                <li className="nav-item">
+                                                    <Link legacyBehavior  href="/apply/main" activeClassName="active">
+                                                        <a className="nav-link">투머럽클럽</a>
+                                                    </Link>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+
+                                        
+                                        <li className="nav-item">
                                             <Link legacyBehavior  href="/contact" activeClassName="active">
                                                 <a className="nav-link">문의하기</a>
                                             </Link>
                                         </li>
+    
+                                        
+
+
 {/* 
                                         <li className="nav-item">
                                             <Link legacyBehavior  href="#">
@@ -248,7 +295,7 @@ class Navbar extends Component {
                                         </li> */}
                                     </ul>
 
-                                    <div className="others-option">
+                                    {/* <div className="others-option">
                                         <div className="call-us">
                                             <div className="icon">
                                                 <i className="flaticon-call"></i>
@@ -256,7 +303,7 @@ class Navbar extends Component {
                                             상담문의:
                                             <span className="number">010-1234-5678</span>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </nav>
                         </div>

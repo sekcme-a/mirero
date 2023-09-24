@@ -5,26 +5,6 @@ class Loader extends Component {
     render() {
         if(this.props.loading)
         return (
-            // <></>
-            // <>
-            //     <div className={`preloader ${this.props.loading ? '' : 'preloader-deactivate'}`}>
-            //         <div id="global">
-            //             <div id="top" className="mask">
-            //                 <div className="plane"></div>
-            //             </div>
-
-            //             <div id="middle" className="mask">
-            //                 <div className="plane"></div>
-            //             </div>
-
-            //             <div id="bottom" className="mask">
-            //                 <div className="plane"></div>
-            //             </div>
-
-            //             <p><i>LOADING...</i></p>
-            //         </div>
-            //     </div>
-            // </>
             <div style={
                 this.props.loading ? 
                 {position: "fixed", top: "0", left: "0", width:"100%", height:"100%", zIndex:"99999", backgroundColor:"white", display:"flex", justifyContent:"center", alignItems:"center", flexWrap:"wrap"}
