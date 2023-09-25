@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material"
 import styles from "./PageHeader.module.css"
+import Profile from "./Profile"
 
 
 const PageHeader = () => {
@@ -37,11 +38,7 @@ const PageHeader = () => {
           </div>
           <Grid container spacing={1} className={styles.mvp_container}>
             <Grid item xs={12} sm={4}>
-              <div className={styles.image}>
-                <img src="/images/apply/default.png" alt="사람" style={{backgroundColor:"white"}} />
-                <h3 className={styles.name}>소속</h3>
-                <p className={styles.position}>이름</p>
-              </div>
+              <Profile name="이름" position="소속" imgUrl="/images/apply/default.png" />
             </Grid>
             <Grid item xs={12} sm={4}>
             <div className={styles.image}>

@@ -208,7 +208,7 @@ class Navbar extends Component {
                                                         <a className="nav-link">후원신청</a>
                                                     </Link>
                                                 </li>
-                                                <li className="nav-item">
+                                                {/* <li className="nav-item">
                                                     <Link legacyBehavior  href="/apply/main" activeClassName="active">
                                                         <a className="nav-link">정기후원</a>
                                                     </Link>
@@ -222,9 +222,9 @@ class Navbar extends Component {
                                                     <Link legacyBehavior  href="/apply/main" activeClassName="active">
                                                         <a className="nav-link">기업후원</a>
                                                     </Link>
-                                                </li>
+                                                </li> */}
                                                 <li className="nav-item">
-                                                    <Link legacyBehavior  href="/apply/main" activeClassName="active">
+                                                    <Link legacyBehavior  href="/apply/tomorlove" activeClassName="active">
                                                         <a className="nav-link">투머럽클럽</a>
                                                     </Link>
                                                 </li>

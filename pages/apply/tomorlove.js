@@ -1,8 +1,8 @@
 import HeadMeta from "components/HeadMeta"
-import PageHeader from "components/About/PageHeader"
+import PageHeader from "components/Apply/PageHeader"
 import Navbar from "components/Layout/Navbar"
 import Footer from "components/Layout/Footer"
-
+import VIPS from "components/Apply/VIPS"
 
 
 const Tomorlove = () => {
@@ -17,8 +17,9 @@ const Tomorlove = () => {
 
                 <Navbar />
 
+                <PageHeader />
 
-
+                <VIPS />
                 
                 <Footer />
     </>
