@@ -1,6 +1,8 @@
 import { Grid } from "@mui/material"
 import styles from "./PageHeader.module.css"
 import Profile from "./Profile"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation, Autoplay } from "swiper";
 
 
 const PageHeader = () => {
@@ -27,6 +29,8 @@ const PageHeader = () => {
             진정성 있는 사랑을 채워나가겠습니다.
           </p>
         </Grid>
+
+
         <Grid item xs={12} md={5} className={styles.right_container}>
           <div className={styles.header_text_container}>
             <img src="/images/apply/deco.svg" alt="데코" className={styles.left_deco}/>
@@ -36,25 +40,46 @@ const PageHeader = () => {
             </div>
             <img src="/images/apply/deco.svg" alt="데코" className={styles.right_deco}/>
           </div>
-          <Grid container spacing={1} className={styles.mvp_container}>
-            <Grid item xs={12} sm={4}>
+          <Swiper
+            spaceBetween={10}
+            pagination={{
+                clickable: true,
+            }}
+            breakpoints={{
+                0: {
+                    slidesPerView: 3,
+                },
+                768: {
+                    slidesPerView: 3,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            }}
+            autoplay={{
+                delay: 2000,
+                pauseOnMouseEnter: true,
+            }}
+            modules={[Pagination, Autoplay]}
+            className="team-slides"
+            loop
+          > 
+            <SwiperSlide>
               <Profile name="이름" position="소속" imgUrl="/images/apply/default.png" />
-            </Grid>
-            <Grid item xs={12} sm={4}>
-            <div className={styles.image}>
-                <img src="/images/apply/default.png" alt="사람" style={{backgroundColor:"white"}} />
-                <h3 className={styles.name}>소속</h3>
-                <p className={styles.position}>이름</p>
-              </div>
-            </Grid>
-            <Grid item xs={12} sm={4}>
-            <div className={styles.image}>
-                <img src="/images/apply/default.png" alt="사람" style={{backgroundColor:"white"}} />
-                <h3 className={styles.name}>소속</h3>
-                <p className={styles.position}>이름</p>
-              </div>
-            </Grid>
-          </Grid>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Profile name="이름" position="소속" imgUrl="/images/apply/default.png" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Profile name="이름" position="소속" imgUrl="/images/apply/default.png" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Profile name="이름" position="소속" imgUrl="/images/apply/default.png" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Profile name="이름" position="소속" imgUrl="/images/apply/default.png" />
+            </SwiperSlide>
+          </Swiper>
         </Grid>
       </Grid>
     

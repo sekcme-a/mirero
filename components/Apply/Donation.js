@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material"
 import styles from "./Donation.module.css"
+import Link from "next/link"
 
 const DONATION_DATA = [
   {
@@ -34,9 +35,9 @@ const Donation = () => {
         )
       })}
       <Grid item xs={6} sm={3}className={styles.button_container}>
-        <a href="/apply/tomorlove">
+        <Link href="/apply/tomorlove">
           <img src="/images/apply/button_4.png" alt="투머럽클럽"/>
-        </a>
+        </Link>
       </Grid>
 
     </Grid>

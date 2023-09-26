@@ -41,14 +41,14 @@ class ServicesSlider extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior  href="/business/introduce">
+                                        <Link legacyBehavior  href="/business">
                                             <a>사업 소개</a>
                                         </Link>
                                     </h3>
 
                                     <p className='bold'>다문화 기자단, 동아리지원사업 등 사단법인 미래로의 사업을 소개합니다. </p>
 
-                                    <Link legacyBehavior  href="/business/introduce">
+                                    <Link legacyBehavior  href="/business">
                                         <a className="read-more-btn">보러가기</a>
                                     </Link>
 
