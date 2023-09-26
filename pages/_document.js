@@ -12,6 +12,7 @@ class MyDocument extends Document {
                     />
                     <link passHref rel="icon" href="/favicon.ico" />
                     <meta charSet="UTF-8" />
+                    <meta name="google-site-verification" content="9BY1jc9YFiRDbiclOQ29WmvVZsje2e_25Pd2fSWVNdA" />
                 </Head>
                 <body>
                     <Main />
