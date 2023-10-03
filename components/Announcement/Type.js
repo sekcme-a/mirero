@@ -52,7 +52,8 @@ const Type = ({list, typeText, type}) => {
           className={styles.search_box}
         />
       </div>
-      {type==="announcement" ? filteredList && <AnnouncementList list={filteredList} countPerPage={10}/> : <ArticleList list={filteredList} type={type}/>}  
+      {(type==="announcement" || type==="notice") && filteredList && <AnnouncementList type={type} list={filteredList} countPerPage={10}/>}
+      {/* {type==="announcement" ? filteredList && <AnnouncementList list={filteredList} countPerPage={10}/> : <ArticleList list={filteredList} type={type}/>}   */}
     </div>
   )
 } 

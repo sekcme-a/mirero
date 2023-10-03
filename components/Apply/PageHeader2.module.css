@@ -1,0 +1,138 @@
+.main_container{
+  /* background-color: rgb(255, 251, 241); */
+  padding-top: 160px !important;
+  padding-bottom: 40px !important;
+  margin-bottom: 40px;
+  padding: 0 20px;
+  word-break: keep-all !important;
+}
+
+.orange{
+  color: rgb(237, 154, 0);
+}
+.red{
+  color: red;
+}
+
+.crown{
+  object-fit: contain;
+  width: 50px;
+}
+
+.main_container h1{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(237, 154, 0);
+  font-weight: bold;
+}
+
+.main_container h2{
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  width: 100%;
+}
+.main_container p{
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+.right_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header_text_container{
+  display: flex;
+  justify-content: flex-end;
+  /* flex-wrap: wrap; */
+}
+.header_text_container .left_deco{
+  width: 100px;
+}
+.header_text_container .right_deco{
+  width: 100px;
+  transform: scaleX(-1);
+}
+.text_container{
+  margin: 0 10px;
+}
+.header_text_container h1{
+  text-align: center;
+  font-size: 20px;
+  height: fit-content;
+  color: black;
+}
+.header_text_container h2{
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 40px;
+  /* line-height: 0.5; */
+  color: orange;
+
+}
+
+
+
+.mvp_container{
+}
+
+
+.mvp_container .image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 199, 94);
+  padding: 10px 10px 20px 10px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.image .name{
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  margin-top: 5px;
+}
+.image .position{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 0;
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width:542px) {
+  .left_deco{
+    display: none;
+  }
+  .right_deco{
+    display: none;
+  }
+
+  .main_container h1{
+    font-size: 25px;
+  }
+  .main_container h2{
+    font-size: 30px;
+  }
+  .main_container p{
+    font-size: 18px;
+  }
+
+  .right_container h1{
+    font-size: 20px;
+  }
+  .right_container h2{
+    font-size: 25px;
+  }
+}

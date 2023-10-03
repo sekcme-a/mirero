@@ -10,14 +10,13 @@ class AboutText extends Component {
                             <div className="col-lg-6 col-md-12">
                                 <div className="about-title">
                                     <span>사단법인 미래로 소개</span>
-                                    <h2>건강과 행복을 위한 국내 최고의 사회교육과정을 소개합니다</h2>
+                                    <h2>사단법인 미래로를 소개합니다.</h2>
                                 </div>
                             </div>
 
                             <div className="col-lg-6 col-md-12">
                                 <div className="about-text">
-                                    <p className="bold">급변하는 대한민국의 주인공 귀하께서는 사회적 리더로서 정상에 오른만큼 권한과 책임이 동반되는 위치에 도달하셨습니다. 이제는 완벽한 유지관리로 더 나은 미래를 준비해야 될 때입니다.
-                                        그 중대한 시점에 건강과 행복을 위한 국내 최고의 사회교육과정을 소개합니다.</p>
+                                    <p className="bold">사단법인 미래로는 우리 사회 구성원 및 다양한 문화, 언어, 출신 국가를 가진 사람들을 지원하고 그들의 다양성을 존중하는 비영리 단체입니다. 사단법인 미래로는 사회적 통합, 문화 교류, 이해와 협력을 촉진하며, 우리 사회에서 모든 개인과 가족이 안정적이고 풍요로운 삶을 살 수 있도록 지원하는 것에 주력하고 있습니다.</p>
                                 </div>
                             </div>
                         </div>

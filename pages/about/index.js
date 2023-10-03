@@ -19,14 +19,14 @@ class About extends Component {
 
 
                 <HeadMeta 
-                    title="기본소개-사단법인 미래로"
+                    title="단체소개-사단법인 미래로"
                     description="사단법인 미래로를 소개합니다. 사단법인 미래로에 대해 알아가보세요."
                     url="https://miraero.org/about/greet"
                 />
 
                 <Navbar />
 
-                <PageHeader title="사단법인 미래로 소개" subtitle="메인화면" location="기본소개"/>
+                <PageHeader title="사단법인 미래로 소개" subtitle="메인화면" location="단체소개"/>
 
                 <AboutText />
                 {/* <WhyChooseUs /> */}

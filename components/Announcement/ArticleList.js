@@ -3,7 +3,7 @@ import { useState, useEffect } from "react"
 import { Grid } from "@mui/material"
 import { Pagination } from "@mui/material"
 
-const countPerPage = 8
+const countPerPage = 4
 
 const ArticleList = ({list, type}) => {
   const [page, setPage] = useState(1);

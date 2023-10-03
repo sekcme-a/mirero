@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import axios from 'axios'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
+import { firestore as db } from 'firebase/firebase'
 const MySwal = withReactContent(Swal)
-import baseUrl from '../../utils/baseUrl'
 
 const alertContent = () => {
     MySwal.fire({
@@ -37,17 +36,14 @@ const ContactForm = () => {
 
     const handleSubmit = async e => {
         e.preventDefault();
-        try {
-            const url = `${baseUrl}/api/contact`;
-            const { name, email, number, subject, text } = contact;
-            const payload = { name, email, number, subject, text };
-            const response = await axios.post(url, payload);
-            console.log(response);
-            setContact(INITIAL_STATE);
-            alertContent();
-        } catch (error) {
-            console.log(error)
-        }
+
+        await db.collection("team_admin").doc("miraero").collection("contact").doc().set({
+            ...contact,
+            createdAt: new Date(),
+            unread: true
+        })
+        alert("문의를 보내주셔서 감사합니다. 빠른 시일내에 답변드리겠습니다.")
+
     };
 
     return (
@@ -59,7 +55,7 @@ const ContactForm = () => {
                             <input 
                                 type="text" 
                                 name="name" 
-                                placeholder="Name" 
+                                placeholder="이름" 
                                 className="form-control" 
                                 value={contact.name}
                                 onChange={handleChange} 
@@ -72,7 +68,7 @@ const ContactForm = () => {
                             <input 
                                 type="text" 
                                 name="email" 
-                                placeholder="Email" 
+                                placeholder="이메일" 
                                 className="form-control" 
                                 value={contact.email}
                                 onChange={handleChange} 
@@ -85,7 +81,7 @@ const ContactForm = () => {
                             <input 
                                 type="text" 
                                 name="number" 
-                                placeholder="Phone number" 
+                                placeholder="전화번호" 
                                 className="form-control" 
                                 value={contact.number}
                                 onChange={handleChange} 
@@ -98,7 +94,7 @@ const ContactForm = () => {
                             <input 
                                 type="text" 
                                 name="subject" 
-                                placeholder="Subject" 
+                                placeholder="문의제목" 
                                 className="form-control" 
                                 value={contact.subject}
                                 onChange={handleChange} 
@@ -112,7 +108,7 @@ const ContactForm = () => {
                                 name="text" 
                                 cols="30" 
                                 rows="6" 
-                                placeholder="Write your message..." 
+                                placeholder="내용을 작성해주세요..." 
                                 className="form-control" 
                                 value={contact.text}
                                 onChange={handleChange} 
@@ -122,7 +118,7 @@ const ContactForm = () => {
                     </div>
                     <div className="col-lg-12 col-sm-12">
                         <button type="submit" className="default-btn">
-                            문의하기 <span></span>
+                            문의사항 전송<span></span>
                         </button>
                     </div>
                 </div>

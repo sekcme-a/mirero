@@ -26,7 +26,7 @@ class Partner extends Component {
     render() {
         return (
             <>
-                <section className="partner-area ptb-100 bg-f8f8f8" style={{padding:"30px 0 "}}>
+                <section className="partner-area ptb-100 bg-f8f8f8" style={{padding:"70px 0 "}}>
                     <div className="container">
                         {/* <div className="partner-title">
                             <h2>여러 기관과 함께합니다.</h2>

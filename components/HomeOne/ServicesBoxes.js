@@ -54,7 +54,7 @@ class ServicesBoxes extends Component {
                                     <div className="hover-content">
                                         <h3>
                                             <Link legacyBehavior  href="/about/greet">
-                                                <a>미래로 인삿말</a>
+                                                <a>미래로 인사말</a>
                                             </Link>
                                         </h3>
                                         <p className={`${styles.servciesBoxes_p} bold` }>사단법인 미래로 소개와 인사말을 확인하세요.</p>
@@ -74,7 +74,7 @@ class ServicesBoxes extends Component {
 
                                     <div className="content">
                                         <h3>
-                                            <Link legacyBehavior  href="/program/team">
+                                            <Link legacyBehavior  href="/about/team">
                                                 <a>조직도 소개</a>
                                             </Link>
                                         </h3>
@@ -88,7 +88,7 @@ class ServicesBoxes extends Component {
                                         </h3>
                                         <p className={`${styles.servciesBoxes_p} bold` }>사단법인 미래로의 조직도를 소개합니다.</p>
 
-                                        <Link legacyBehavior  href="/program/team">
+                                        <Link legacyBehavior  href="/about/team">
                                             <a className="read-more-btn">자세히 보기</a>
                                         </Link>
                                     </div>

@@ -13,7 +13,7 @@ const Announcement = () => {
       <HeadMeta 
         title="공지사항-사단법인 미래로"
         description="사단법인 미래로의 최근 소식들을 공지사항으로 확인하세요."
-        url="https://miraero.org/announcement"
+        url="https://miraero.org/article/announcement"
       />
       <Navbar />  
        <PageHeader title="공지사항" subtitle="메인화면" location="공지사항"/>

@@ -19,11 +19,11 @@ const NewsCardContent = ({type, data}) => {
 
     return (
         <>
-            <div className="single-blog-post" onClick={() => router.push(`/post/${type}/${data.id}`)}>
-                <div className="post-image">
-                    <Link href={`/post/${type}/${data.id}`}>
+            <div className="single-blog-post" onClick={() => router.push(`/post/${type}/${data.id}`)} >
+                <div className="post-image" style={{display:"flex", justifyContent:'center', alignItems:'center '}} >
+                    <Link legacyBehavior href={`/post/${type}/${data.id}`}>
                         <a>
-                            <img src={data.thumbnailImg} alt={data.title} />
+                            <img src={data.thumbnailImg} alt={data.title} style={{maxHeight:"300px"}}/>
                         </a>
                     </Link>
 
@@ -34,7 +34,7 @@ const NewsCardContent = ({type, data}) => {
 
                 <div className="post-content">
                     <h3 style={{fontSize:"16px", fontWeight:"normal"}}>
-                        <Link href={`/post/${type}/${data.id}`}>
+                        <Link legacyBehavior href={`/post/${type}/${data.id}`}>
                             <a>{data.title}</a>
                         </Link>
                     </h3>

@@ -7,7 +7,7 @@ import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 
 
-const ArticleList = ({list, countPerPage}) => {
+const ArticleList = ({type, list, countPerPage}) => {
   const [monitorSize, setMonitorSize] = useState(1000);
   const [page, setPage] = useState(1);
   const [count, setCount] = useState(1)
@@ -57,7 +57,7 @@ const ArticleList = ({list, countPerPage}) => {
   //**모니터 크기 측정 끝 */
 
   const handleItemclick = (id) => {
-    router.push(`/post/announcement/${id}`)
+    router.push(`/post/${type}/${id}`)
   }
 
   if(monitorSize>600)

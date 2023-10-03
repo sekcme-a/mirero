@@ -11,29 +11,24 @@ class ServiceDetailsContent extends Component {
 
 
                                 <h3>설립목적</h3>
-                                <p className='bold'>본 사회교육과정은 인류의 염원인 생명연장의 꿈을 평소 실천에 옮김으로서 
-                                치료보다 진료를 중시하는 선진 의료문화의 모범이 되어 
-                                향후 국민건강에 이바지 하고자 함.</p>
+                                <p className='bold'>어려운 이웃에 대한 봉사와 나눔을 통해 어려운 환경속에서 꿈과 희망을 잃지 않고 살아갈 수 있게 도와주고 자원봉사문화 활성화 등 시민의식 고취 활동을 통하여 쾌적하고 안전한 주거 환경을 조성하여 지역 주민 모두가 더불어 행복하게 살아가는 지역 공동체를 형성함을 그 목적으로 함.</p>
 
                                 <div style={{marginBottom:"30px"}}/>
-                                <h3>설립취지</h3>
-                                <p className='bold'>상기 목적달성의 부가적인 취지는 
-                                    중앙대 광명병원의 인적 인프라형성에 사회전반의 CEO와 공감대를 형성하여 
-                                    인지도향상과 병원의 장점을 알리는 
-                                    홍보를 더하기 위함입니다. </p>
+                                <h3>설립연월</h3>
+                                <p className='bold'>{`2023년 8월 (제2023-01-56호)`} </p>
 
                                 <div style={{marginBottom:"30px"}}/>
                                 <h3>슬로건</h3>
                                 <div className="features-text">
                                     <h4>
-                                        <i className="flaticon-check-mark"></i> 긍정
-                                        <i className="flaticon-check-mark" style={{marginLeft:"40px"}}></i> 열정
-                                        <i className="flaticon-check-mark" style={{marginLeft:"40px"}}></i> 배려</h4>
+                                        <i className="flaticon-check-mark"></i> 공헌
+                                        <i className="flaticon-check-mark" style={{marginLeft:"40px"}}></i> 협력
+                                        <i className="flaticon-check-mark" style={{marginLeft:"40px"}}></i> 혁신</h4>
                                 </div>
                             </div>
 
                             <div className="services-details-image">
-                                <img src="/images/hospital.png" alt="image" />
+                                <img src="/images/about/purpose.jpg" alt="image" />
                             </div>
                         </div>
 

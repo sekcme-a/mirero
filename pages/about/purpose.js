@@ -22,7 +22,7 @@ class Greet extends Component {
 
 
                 <HeadMeta 
-                    title="설립목적 및 취지-사단법인 미래로"
+                    title="설립목적-사단법인 미래로"
                     description="사단법인 미래로의 사업목적 및 취지를 확인하세요."
                     url="https://miraero.org/about/purpose"
                 />
@@ -30,7 +30,7 @@ class Greet extends Component {
 
                 <Navbar />
 
-                <PageHeader title="아카데미 설립 목적 및 취지" subtitle="메인화면" location="설립목적 및 취지"/>
+                <PageHeader title="아카데미 설립 목적 및 취지" subtitle="메인화면" location="설립목적"/>
                 
                 <ServiceDetailsContent />
                 

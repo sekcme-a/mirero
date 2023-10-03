@@ -5,22 +5,74 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(255, 199, 94);
-  padding: 10px 10px 20px 10px;
+  padding: 10px 10px 15px 10px;
   border-radius: 5px;
   margin-top: 30px;
+  height: 300px;
+}
+.image img{
+  height: 200px;
 }
 
 .image .name{
-  font-weight: bold;
   width: 100%;
   text-align: center;
-  font-size: 25px;
   margin: 0;
-  margin-top: 5px;
+  font-size: 25px;
 }
 .image .position{
-  font-size: 20px;
   font-weight: bold;
   line-height: 0;
   margin-top: 10px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.default{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+.default h3{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.small_image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 185, 56);
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  margin-top: 30px;
+  height: 225px;
+}
+.small_image img{
+  height: 150px;
+  object-fit: contain;
+}
+.small_image .default h3{
+  font-size: 14px;
+  word-break: keep-all;
+}
+.small_image h3{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.small_image p{
+  font-weight: normal;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 365px){
+  .small_image img{
+    height: 125px;
+  }
 }

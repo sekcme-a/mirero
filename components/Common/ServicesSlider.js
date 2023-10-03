@@ -6,7 +6,7 @@ class ServicesSlider extends Component {
     render() {
         return (
             <>
-                <section className="services-area pb-100">
+                <section className="services-area pb-100" style={{marginTop:"100px"}}>
                     <div className="container">
                         <Swiper
                             spaceBetween={30}
@@ -71,14 +71,14 @@ class ServicesSlider extends Component {
                                     </div>
 
                                     <h3>
-                                        <Link legacyBehavior  href="/announcement">
+                                        <Link legacyBehavior  href="/article/announcement">
                                             <a>공지사항</a>
                                         </Link>
                                     </h3>
 
                                     <p className='bold'>사단법인 미래로의 공지사항으로 최근 소식들을 확인하세요!</p>
 
-                                    <Link legacyBehavior  href="/announcement">
+                                    <Link legacyBehavior  href="/article/announcement">
                                         <a className="read-more-btn">보러가기</a>
                                     </Link>
 

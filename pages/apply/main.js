@@ -1,7 +1,7 @@
 
 import Navbar from 'components/Layout/Navbar';
 import Footer from 'components/Layout/Footer';
-import PageHeader from 'components/Apply/PageHeader';
+import PageHeader2 from 'components/Apply/PageHeader2';
 import Donation from 'components/Apply/Donation';
 import HeadMeta from 'components/HeadMeta';
 
@@ -19,7 +19,7 @@ const Apply = () => {
       <Navbar />
 
 
-      <PageHeader />
+      <PageHeader2 />
 
       <Donation />
     

@@ -39,8 +39,8 @@ const Banner = () => {
                             <div className="d-table-cell">
                                 <div className="container">
                                     <div className="main-banner-content">
-                                        <span className={`sub-title ${styles.banner_sub_title}`}>메인배너 부제목A</span>
-                                        <h1>메인베너 제목A</h1>
+                                        <span className={`sub-title ${styles.banner_sub_title}`}>사단법인 미래로</span>
+                                        <h1>미래로, 세계로</h1>
 
                                         <div className="btn-box">
                                             <Link legacyBehavior  href="/about">
@@ -67,11 +67,11 @@ const Banner = () => {
                             <div className="d-table-cell">
                                 <div className="container">
                                     <div className="main-banner-content">
-                                        <span className={`sub-title ${styles.banner_sub_title}`}>메인배너 부제목B</span>
-                                        <h1>메인배너 제목B</h1>
+                                        <span className={`sub-title ${styles.banner_sub_title}`}>사단법인 미래로</span>
+                                        <h1>미래로, 세계로</h1>
 
                                         <div className="btn-box">
-                                            <Link legacyBehavior  href="/program/team">
+                                            <Link legacyBehavior  href="/business">
                                                 <a className="default-btn">사업 소개<span></span></a>
                                             </Link>
 

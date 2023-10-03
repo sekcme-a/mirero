@@ -4,7 +4,7 @@ import Link from "next/link"
 const CardContent = ({img, title, content, link}) => {
   return(
     <>
-            <div className="single-services-box" style={{marginRight:"10px", minHeight:"400px"}}>
+            <div className="single-services-box" style={{minHeight:"400px"}}>
               <div className="icon">
                   {/* <i className={`${icon}`}></i> */}
                   <i>

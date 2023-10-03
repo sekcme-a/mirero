@@ -11,12 +11,18 @@ import "styles/custom/loader.scss"
 // Global Style
 import '../styles/style.css';
 import '../styles/responsive.css';
+import 'styles/reset.css'
 
 import App from 'next/app';
 import Head from 'next/head';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
 import Script from "next/script"
+
+import { UserDataProvider } from "context/userData";
+import { DataProvider } from "context/data";
+
+import AuthStateChanged from "hooks/AuthStateChanged";
 
 export default class MyApp extends App {
     // Preloader
@@ -44,8 +50,13 @@ export default class MyApp extends App {
                     <meta name="robots" content="index,follow"></meta>
                 </Head>
   
-
-                <Component {...pageProps} />
+                <UserDataProvider>
+                    <DataProvider>
+                        <AuthStateChanged>
+                            <Component {...pageProps} />
+                        </AuthStateChanged>
+                    </DataProvider>
+                </UserDataProvider>
                 
                 {/* Preloader */}
                 <Loader loading={this.state.loading} />

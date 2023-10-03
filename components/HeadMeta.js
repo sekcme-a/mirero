@@ -8,7 +8,7 @@ const HeadMeta = ({ title, description, url }) => {
         name="description"
         content={
           description ||
-          "사단법인 미래로와 함꼐하세요. 사단법인 미래로의 여러가지 사업들을 소개해드립니다."
+          "사단법인 미래로와 함께하세요. 사단법인 미래로의 여러가지 사업들을 소개해드립니다."
         }
       />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
