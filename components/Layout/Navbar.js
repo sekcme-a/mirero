@@ -140,12 +140,12 @@ const Navbar = () => {
 
 
                                         
+                                      
                                         <li className="nav-item">
-                                            <Link legacyBehavior  href="/contact" activeClassName="active">
+                                            <Link legacyBehavior href="/contact" activeClassName="active">
                                                 <a className="nav-link">문의하기</a>
                                             </Link>
                                         </li>
-                                        
                                         <li className="nav-item">
                                             <Link legacyBehavior href="/article/notice" activeClassName="active">
                                                 <a className="nav-link">게시판</a>
