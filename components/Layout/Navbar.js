@@ -152,12 +152,12 @@ const Navbar = () => {
                                             </Link>
                                         </li>
                                         
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <Link legacyBehavior href="/auth/login" activeClassName="active">
                                                 <a className="nav-link">로그인</a>
                                             </Link>
                                         </li>
-                                        
+                                         */}
     
                                 </ul>
                             </div>
