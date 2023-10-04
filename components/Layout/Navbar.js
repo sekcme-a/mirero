@@ -3,9 +3,13 @@
 import React, { useState, useEffect } from 'react';
 import Link from '../../utils/ActiveLink';
 import styles from "../../styles/custom/custom.module.css";
+import useData from 'context/data';
+import useUserData from 'context/userData';
+import { auth } from 'firebase/firebase';
 
 const Navbar = () => {
     const [collapsed, setCollapsed] = useState(true);
+    const {user} = useUserData()
 
     const toggleNavbar = () => {
         setCollapsed(!collapsed);
@@ -152,12 +156,18 @@ const Navbar = () => {
                                             </Link>
                                         </li>
                                         
-                                        {/* <li className="nav-item">
-                                            <Link legacyBehavior href="/auth/login" activeClassName="active">
-                                                <a className="nav-link">로그인</a>
-                                            </Link>
+                                        <li className="nav-item">
+                                            {user ? 
+                                                <div activeClassName="active" style={{cursor:'pointer'}} onClick={()=>auth.signOut()}>
+                                                    <a className="nav-link">로그아웃</a>
+                                                </div>
+                                                :
+                                                <Link legacyBehavior href="/auth/login" activeClassName="active">
+                                                    <a className="nav-link">로그인</a>
+                                                </Link>
+                                            }
                                         </li>
-                                         */}
+                                        
     
                                 </ul>
                             </div>

@@ -19,14 +19,16 @@ export default function AuthStateChanged({ children }) {
       //로그인시
       if (user !== null ) {
         db.collection("user").doc(user.uid).get().then((doc) => {
-          if (doc.exists && (doc.data().roles.includes("miraero_super_admin")||doc.data().roles.includes("super_admin"))){
+          if (doc.exists){
             setUserData(doc.data())
+            router.push("/")
           }else{
-            alert("접근 권한이 없습니다.")
-            auth.signOut()
+            db.collection("user").doc(user.uid).set({
+              roles:["user"]
+            }).then(router.push("/"))
           }
           
-          setIsLoading(false)
+          setIsLoading(false) 
         })
       } else{
         //로그아웃시
