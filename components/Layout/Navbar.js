@@ -167,7 +167,15 @@ const Navbar = () => {
                                                 </Link>
                                             }
                                         </li>
+
+                                        <li className="nav-item">
+                                            <Link legacyBehavior href= "https://www.acrc.go.kr/" activeClassName="active">
+                                                <a className="nav-link" target='_blank'>공익제보</a>
+                                            </Link>
+                                        </li>
                                         
+
+                                       \
     
                                 </ul>
                             </div>
