@@ -122,7 +122,7 @@ const Navbar = () => {
                                             </Link>
                                         </li>
 
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <Link legacyBehavior  href="#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
                                                     후원신청<i className="flaticon-down-arrow"></i>
@@ -143,7 +143,7 @@ const Navbar = () => {
                                         </li>
 
 
-                                        
+                                         */}
                                       
                                         <li className="nav-item">
                                             <Link legacyBehavior href="/contact" activeClassName="active">
