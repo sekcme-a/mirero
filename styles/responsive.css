@@ -61,47 +61,47 @@
     padding-top: 170px;
     padding-bottom: 170px;
   }
-  .main-banner-content {
+  .miraero-mainBan-cont {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
   }
-  .main-banner-content .sub-title {
+  .miraero-mainBan-cont .sub-title {
     letter-spacing: 1px;
     font-size: 15px;
     text-transform: capitalize;
   }
-  .main-banner-content h1 {
+  .miraero-mainBan-cont h1 {
     font-size: 30px;
   }
-  .main-banner-content .btn-box {
+  .miraero-mainBan-cont .btn-box {
     margin-top: 23px;
   }
-  .main-banner-content .btn-box .default-btn, .main-banner-content .btn-box .optional-btn {
+  .miraero-mainBan-cont .btn-box .default-btn, .miraero-mainBan-cont .btn-box .optional-btn {
     display: block;
     width: 100%;
     font-size: 13px;
     margin: 0;
   }
-  .main-banner-content .btn-box .optional-btn {
+  .miraero-mainBan-cont .btn-box .optional-btn {
     margin-top: 12px;
   }
-  .main-banner-content p {
+  .miraero-mainBan-cont p {
     font-size: 15px;
     margin-top: 15px;
   }
-  .main-banner-content form {
+  .miraero-mainBan-cont form {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
     margin-top: 20px;
   }
-  .main-banner-content form .form-group .input-location {
+  .miraero-mainBan-cont form .form-group .input-location {
     width: 100%;
     font-size: 15px;
   }
-  .main-banner-content form .default-btn {
+  .miraero-mainBan-cont form .default-btn {
     height: 53px;
     line-height: 53px;
     position: relative;
@@ -127,7 +127,7 @@
     padding-top: 180px;
     padding-bottom: 120px;
   }
-  .banner-section .main-banner-content {
+  .banner-section .miraero-mainBan-cont {
     margin-top: 0;
   }
   .services-boxes-area {
@@ -884,11 +884,11 @@
   .copyright-area ul li {
     font-size: 14px;
   }
-  .tuam-nav .navbar {
+  .miraeroNavigation .navbar {
     padding-right: 0;
     padding-left: 0;
   }
-  .tuam-nav .navbar .navbar-nav {
+  .miraeroNavigation .navbar .navbar-nav {
     margin-top: 20px;
     max-height: 60vh;
     overflow-y: scroll;
@@ -899,29 +899,29 @@
     /* Handle */
     /* Handle on hover */
   }
-  .tuam-nav .navbar .navbar-nav::-webkit-scrollbar {
+  .miraeroNavigation .navbar .navbar-nav::-webkit-scrollbar {
     width: 10px;
   }
-  .tuam-nav .navbar .navbar-nav::-webkit-scrollbar-track {
+  .miraeroNavigation .navbar .navbar-nav::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
-  .tuam-nav .navbar .navbar-nav::-webkit-scrollbar-thumb {
+  .miraeroNavigation .navbar .navbar-nav::-webkit-scrollbar-thumb {
     background: #888;
   }
-  .tuam-nav .navbar .navbar-nav::-webkit-scrollbar-thumb:hover {
+  .miraeroNavigation .navbar .navbar-nav::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item a {
+  .miraeroNavigation .navbar .navbar-nav .nav-item a {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item a i {
+  .miraeroNavigation .navbar .navbar-nav .nav-item a i {
     display: none;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item:first-child a {
+  .miraeroNavigation .navbar .navbar-nav .nav-item:first-child a {
     margin-left: 13px;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+  .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu {
     left: 15px;
     position: relative;
     top: 0 !important;
@@ -934,7 +934,7 @@
     padding-bottom: 10px;
     margin-bottom: 10px;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+  .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
     left: 15px;
     position: relative;
     top: 0 !important;
@@ -947,7 +947,7 @@
     padding-bottom: 10px;
     margin-bottom: 10px;
   }
-  .tuam-nav .navbar .others-option {
+  .miraeroNavigation .navbar .others-option {
     margin: 0;
     border-top: 1px solid #eee;
     padding-top: 15px;
@@ -964,24 +964,24 @@
   .go-top i {
     border-radius: 50%;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .white-logo {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-brand .white-logo {
     display: none;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .logo {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-brand .logo {
     display: block !important;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item a {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item a {
     color: #524552;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .call-us {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .others-option .call-us {
     color: #333;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .default-btn {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .others-option .default-btn {
     margin-left: 15px;
     background-color: #000;
     padding: 10px 15px;
   }
-  .navbar-area.navbar-style-two.is-sticky .tuam-nav .navbar {
+  .miraero-navbar-zone.navbar-style-two.is-sticky .miraeroNavigation .navbar {
     background-color: transparent;
   }
   .single-footer-widget .footer-quick-links {
@@ -997,7 +997,7 @@
             flex: 0 0 50%;
     max-width: 50%;
   }
-  .main-banner-content .btn-box .optional-btn, .main-banner-content .btn-box .default-btn {
+  .miraero-mainBan-cont .btn-box .optional-btn, .miraero-mainBan-cont .btn-box .default-btn {
     display: inline-block;
     width: auto;
     margin: 0 10px;
@@ -1114,13 +1114,13 @@
     padding-top: 250px;
     padding-bottom: 320px;
   }
-  .main-banner-content {
+  .miraero-mainBan-cont {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
   }
-  .main-banner-content h1 {
+  .miraero-mainBan-cont h1 {
     font-size: 40px;
   }
   .home-section .banner-footer .banner-video {
@@ -1137,7 +1137,7 @@
     padding-top: 250px;
     padding-bottom: 190px;
   }
-  .banner-section .main-banner-content {
+  .banner-section .miraero-mainBan-cont {
     margin-top: 0;
   }
   .about-title {
@@ -1328,20 +1328,20 @@
     padding-left: 0;
     text-align: center;
   }
-  .tuam-nav .navbar {
+  .miraeroNavigation .navbar {
     padding: 0;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item a {
+  .miraeroNavigation .navbar .navbar-nav .nav-item a {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .tuam-nav .navbar .navbar-nav .nav-item:nth-last-child(1) .dropdown-menu, .tuam-nav .navbar .navbar-nav .nav-item:nth-last-child(2) .dropdown-menu {
+  .miraeroNavigation .navbar .navbar-nav .nav-item:nth-last-child(1) .dropdown-menu, .miraeroNavigation .navbar .navbar-nav .nav-item:nth-last-child(2) .dropdown-menu {
     left: auto;
     right: 0;
   }
-  .tuam-nav .navbar .others-option {
+  .miraeroNavigation .navbar .others-option {
     display: none;
   }
   .single-blog-post .post-content h3 {
@@ -1376,25 +1376,25 @@
   .join-content h2 {
     font-size: 36px;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .white-logo {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-brand .white-logo {
     display: none;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .logo {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-brand .logo {
     display: block !important;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item a {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item a {
     color: #524552;
     margin-left: 8px;
     margin-right: 7px;
     font-size: 14px;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .others-option {
     margin-left: 10px;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .call-us {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .others-option .call-us {
     display: none;
   }
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .default-btn {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .others-option .default-btn {
     margin-left: 0;
     background-color: #000;
     padding: 10px 8px;
@@ -1409,7 +1409,7 @@
     line-height: 45px;
     font-size: 18px;
   }
-  .navbar-area.navbar-style-two.is-sticky .tuam-nav .navbar {
+  .miraero-navbar-zone.navbar-style-two.is-sticky .miraeroNavigation .navbar {
     background-color: transparent;
   }
   .page-title-content h2 {
@@ -1431,13 +1431,13 @@
 
 /* Min width: 992px to Max width: 1199px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .tuam-nav .navbar .others-option .call-us {
+  .miraeroNavigation .navbar .others-option .call-us {
     padding-left: 0;
   }
-  .tuam-nav .navbar .others-option .call-us .icon {
+  .miraeroNavigation .navbar .others-option .call-us .icon {
     display: none;
   }
-  .tuam-nav .navbar .others-option .default-btn {
+  .miraeroNavigation .navbar .others-option .default-btn {
     display: none;
   }
   .home-section .banner-footer .banner-contact-info {
@@ -1473,10 +1473,10 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-  .main-banner-content {
+  .miraero-mainBan-cont {
     max-width: 870px;
   }
-  .main-banner-content h1 {
+  .miraero-mainBan-cont h1 {
     font-size: 50px;
   }
   .single-blog-post .post-content h3 {
@@ -1552,7 +1552,7 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .navbar-area.navbar-style-two .tuam-nav .navbar .others-option .default-btn {
+  .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .others-option .default-btn {
     margin-left: 20px;
     padding: 15px 20px;
   }

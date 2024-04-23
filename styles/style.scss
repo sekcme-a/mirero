@@ -371,7 +371,7 @@ Preloader Area CSS
 /*================================================
 Navbar Area CSS
 =================================================*/
-.tuam-nav {
+.miraeroNavigation {
     background-color: transparent;
     
     .navbar {
@@ -725,7 +725,7 @@ Navbar Area CSS
         }
     }
 }
-.navbar-area {
+.miraero-navbar-zone {
     position: absolute;
     left: 0;
     top: 50px;
@@ -745,7 +745,7 @@ Navbar Area CSS
         background-color: $white-color !important;
         animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 
-        .tuam-nav {
+        .miraeroNavigation {
             .navbar {
                 box-shadow: unset;
                 padding: {
@@ -761,7 +761,7 @@ Navbar Area CSS
             left: 40px;
             right: 40px;
         };
-        .tuam-nav {
+        .miraeroNavigation {
             background-color: transparent;
             
             .navbar {
@@ -944,7 +944,7 @@ Navbar Area CSS
             box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.2);
             background-color: $black-color !important;
     
-            .tuam-nav {
+            .miraeroNavigation {
                 .navbar {
                     background-color: $black-color;
                 }
@@ -1004,7 +1004,7 @@ Navbar Area CSS
 
 // Mobile and iPad Navbar
 @media only screen and (max-width: 991px) {
-    .navbar-area {
+    .miraero-navbar-zone {
         background-color: $white-color;
         position: absolute;
         top: 0;
@@ -1094,12 +1094,12 @@ Main Banner Area CSS
         background-color: #1a0602;
         opacity: .60;
     }
-    .main-banner-content {
+    .miraero-mainBan-cont {
         margin-top: 30px;
         max-width: 940px;
     }
 }
-.main-banner-content {
+.miraero-mainBan-cont {
     text-align: center;
     max-width: 900px;
     position: relative;

@@ -39,8 +39,8 @@ const Navbar = () => {
 
     return (
         <>
-            <div id="navbar" className="navbar-area">
-                <div className="tuam-nav">
+            <div id="navbar" className="miraero-navbar-zone">
+                <div className="miraeroNavigation">
                     <div className="container">
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link legacyBehavior href="/">

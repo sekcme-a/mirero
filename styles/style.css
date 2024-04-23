@@ -429,11 +429,11 @@ Preloader Area CSS
 /*================================================
 Navbar Area CSS
 =================================================*/
-.tuam-nav {
+.miraeroNavigation {
   background-color: transparent;
 }
 
-.tuam-nav .navbar {
+.miraeroNavigation .navbar {
   background-color: #ffffff;
   -webkit-box-shadow: -10px 10px rgba(255, 255, 255, 0.6);
           box-shadow: -10px 10px rgba(255, 255, 255, 0.6);
@@ -445,29 +445,29 @@ Navbar Area CSS
   padding-bottom: 0;
 }
 
-.tuam-nav .navbar .navbar-brand {
+.miraeroNavigation .navbar .navbar-brand {
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
 }
 
-.tuam-nav .navbar ul {
+.miraeroNavigation .navbar ul {
   padding-left: 0;
   list-style-type: none;
   margin-bottom: 0;
 }
 
-.tuam-nav .navbar .navbar-nav {
+.miraeroNavigation .navbar .navbar-nav {
   margin-left: auto;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item {
+.miraeroNavigation .navbar .navbar-nav .nav-item {
   position: relative;
   padding: 0;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item a {
+.miraeroNavigation .navbar .navbar-nav .nav-item a {
   font-size: 15px;
   color: #524552;
   text-transform: uppercase;
@@ -482,29 +482,29 @@ Navbar Area CSS
   margin-right: 13px;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item a:hover, .tuam-nav .navbar .navbar-nav .nav-item a:focus, .tuam-nav .navbar .navbar-nav .nav-item a.active {
+.miraeroNavigation .navbar .navbar-nav .nav-item a:hover, .miraeroNavigation .navbar .navbar-nav .nav-item a:focus, .miraeroNavigation .navbar .navbar-nav .nav-item a.active {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item a i {
+.miraeroNavigation .navbar .navbar-nav .nav-item a i {
   font-size: 11px;
   position: relative;
   left: 2px;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item:last-child a {
+.miraeroNavigation .navbar .navbar-nav .nav-item:last-child a {
   margin-right: 0;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item:first-child a {
+.miraeroNavigation .navbar .navbar-nav .nav-item:first-child a {
   margin-left: 0;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item:hover a, .tuam-nav .navbar .navbar-nav .nav-item.active a {
+.miraeroNavigation .navbar .navbar-nav .nav-item:hover a, .miraeroNavigation .navbar .navbar-nav .nav-item.active a {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu {
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
   background: #ffffff;
@@ -527,14 +527,14 @@ Navbar Area CSS
   padding-bottom: 20px;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a {
   text-transform: capitalize;
   padding: 8px 15px;
   margin: 0;
@@ -544,7 +544,7 @@ Navbar Area CSS
   font-weight: 400;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a::before {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a::before {
   content: '';
   position: absolute;
   left: -5px;
@@ -558,177 +558,177 @@ Navbar Area CSS
           transform: translateY(-50%);
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #ff5d22;
   padding-left: 26px;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover::before, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus::before, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active::before {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a:hover::before, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a:focus::before, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a.active::before {
   width: 20px;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   left: -250px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: 220px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: -250px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: -250px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: -250px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: -250px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
 
-.tuam-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu {
+.miraeroNavigation .navbar .navbar-nav .nav-item:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: 100%;
   margin-top: 0;
 }
 
-.tuam-nav .navbar .others-option {
+.miraeroNavigation .navbar .others-option {
   margin-left: 25px;
 }
 
-.tuam-nav .navbar .others-option .call-us {
+.miraeroNavigation .navbar .others-option .call-us {
   padding-left: 50px;
   position: relative;
   text-transform: uppercase;
@@ -736,7 +736,7 @@ Navbar Area CSS
   font-weight: 300;
 }
 
-.tuam-nav .navbar .others-option .call-us .icon {
+.miraeroNavigation .navbar .others-option .call-us .icon {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -754,18 +754,18 @@ Navbar Area CSS
           transform: translateY(-50%);
 }
 
-.tuam-nav .navbar .others-option .call-us .number {
+.miraeroNavigation .navbar .others-option .call-us .number {
   display: block;
   color: #ff5d22;
   font-weight: 600;
 }
 
-.tuam-nav .navbar .others-option .call-us:hover .icon {
+.miraeroNavigation .navbar .others-option .call-us:hover .icon {
   background-color: #ff5d22;
   color: #ffffff;
 }
 
-.navbar-area {
+.miraero-navbar-zone {
   position: absolute;
   left: 0;
   top: 50px;
@@ -777,7 +777,7 @@ Navbar Area CSS
   transition: 0.5s;
 }
 
-.navbar-area.is-sticky {
+.miraero-navbar-zone.is-sticky {
   position: fixed;
   top: 0;
   left: 0;
@@ -790,24 +790,24 @@ Navbar Area CSS
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
-.navbar-area.is-sticky .tuam-nav .navbar {
+.miraero-navbar-zone.is-sticky .miraeroNavigation .navbar {
   -webkit-box-shadow: unset;
           box-shadow: unset;
   padding-left: 0;
   padding-right: 0;
 }
 
-.navbar-area.navbar-style-two {
+.miraero-navbar-zone.navbar-style-two {
   top: 0;
   padding-left: 40px;
   padding-right: 40px;
 }
 
-.navbar-area.navbar-style-two .tuam-nav {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation {
   background-color: transparent;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar {
   background-color: transparent;
   -webkit-box-shadow: unset;
           box-shadow: unset;
@@ -817,114 +817,114 @@ Navbar Area CSS
   padding-bottom: 0;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-brand .logo {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-brand .logo {
   display: none;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav {
   margin-left: auto;
   margin-right: auto;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item a {
   color: #ffffff;
   position: relative;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item a:focus, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item a.active {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item a:hover, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item a:focus, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item a.active {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item:hover a, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item.active a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item:hover a, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item.active a {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a {
   color: #524552;
   position: relative;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #524552;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
   color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .others-option {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .others-option {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -933,14 +933,14 @@ Navbar Area CSS
           align-items: center;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .others-option .call-us {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .others-option .call-us {
   display: inline-block;
   color: #ffffff;
   font-size: 14px;
   font-weight: 300;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .others-option .default-btn {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .others-option .default-btn {
   margin-left: 25px;
   background-color: transparent;
   border: 1px solid #ffffff;
@@ -948,22 +948,22 @@ Navbar Area CSS
   padding-bottom: 12px;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .others-option .default-btn span {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .others-option .default-btn span {
   background-color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two .tuam-nav .navbar .others-option .default-btn:hover {
+.miraero-navbar-zone.navbar-style-two .miraeroNavigation .navbar .others-option .default-btn:hover {
   color: #ffffff;
   border-color: #ff5d22;
 }
 
-.navbar-area.navbar-style-two.is-sticky {
+.miraero-navbar-zone.navbar-style-two.is-sticky {
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.2);
   background-color: #524552 !important;
 }
 
-.navbar-area.navbar-style-two.is-sticky .tuam-nav .navbar {
+.miraero-navbar-zone.navbar-style-two.is-sticky .miraeroNavigation .navbar {
   background-color: #524552;
 }
 
@@ -1029,18 +1029,18 @@ Navbar Area CSS
 }
 
 @media only screen and (max-width: 991px) {
-  .navbar-area {
+  .miraero-navbar-zone {
     background-color: #ffffff;
     position: absolute;
     top: 0;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  .navbar-area.navbar-style-two {
+  .miraero-navbar-zone.navbar-style-two {
     padding-left: 0;
     padding-right: 0;
   }
-  .navbar-area.navbar-style-two.is-sticky {
+  .miraero-navbar-zone.navbar-style-two.is-sticky {
     -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
             box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
     background-color: #ffffff !important;
@@ -1113,12 +1113,12 @@ Main Banner Area CSS
   opacity: .60;
 }
 
-.banner-section .main-banner-content {
+.banner-section .miraero-mainBan-cont {
   margin-top: 30px;
   max-width: 940px;
 }
 
-.main-banner-content {
+.miraero-mainBan-cont {
   text-align: center;
   max-width: 900px;
   position: relative;
@@ -1128,7 +1128,7 @@ Main Banner Area CSS
   margin-top: -30px;
 }
 
-.main-banner-content .sub-title {
+.miraero-mainBan-cont .sub-title {
   text-transform: uppercase;
   display: block;
   color: #ffffff;
@@ -1137,49 +1137,49 @@ Main Banner Area CSS
   font-size: 16px;
 }
 
-.main-banner-content h1 {
+.miraero-mainBan-cont h1 {
   color: #ffffff;
   margin-bottom: 0;
   font-size: 65px;
   font-weight: 700;
 }
 
-.main-banner-content .btn-box {
+.miraero-mainBan-cont .btn-box {
   margin-top: 40px;
 }
 
-.main-banner-content .btn-box .default-btn span {
+.miraero-mainBan-cont .btn-box .default-btn span {
   background-color: #ffffff;
 }
 
-.main-banner-content .btn-box .default-btn:hover {
+.miraero-mainBan-cont .btn-box .default-btn:hover {
   color: #ff5d22;
 }
 
-.main-banner-content .btn-box .default-btn, .main-banner-content .btn-box .optional-btn {
+.miraero-mainBan-cont .btn-box .default-btn, .miraero-mainBan-cont .btn-box .optional-btn {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.main-banner-content .btn-box .optional-btn {
+.miraero-mainBan-cont .btn-box .optional-btn {
   color: #ffffff !important;
   border-color: #ffffff;
 }
 
-.main-banner-content .btn-box .optional-btn:hover {
+.miraero-mainBan-cont .btn-box .optional-btn:hover {
   background-color: #ffffff;
   color: #ff5d22 !important;
   border-color: #ffffff;
 }
 
-.main-banner-content p {
+.miraero-mainBan-cont p {
   color: #ffffff;
   font-size: 18px;
   margin-bottom: 0;
   margin-top: 30px;
 }
 
-.main-banner-content form {
+.miraero-mainBan-cont form {
   position: relative;
   max-width: 800px;
   margin-left: auto;
@@ -1187,11 +1187,11 @@ Main Banner Area CSS
   margin-right: auto;
 }
 
-.main-banner-content form .form-group {
+.miraero-mainBan-cont form .form-group {
   position: relative;
 }
 
-.main-banner-content form .form-group .input-location {
+.miraero-mainBan-cont form .form-group .input-location {
   display: block;
   width: 75%;
   color: #524552;
@@ -1205,23 +1205,23 @@ Main Banner Area CSS
   font-weight: 300;
 }
 
-.main-banner-content form .form-group .input-location::-webkit-input-placeholder {
+.miraero-mainBan-cont form .form-group .input-location::-webkit-input-placeholder {
   color: #524552;
 }
 
-.main-banner-content form .form-group .input-location:-ms-input-placeholder {
+.miraero-mainBan-cont form .form-group .input-location:-ms-input-placeholder {
   color: #524552;
 }
 
-.main-banner-content form .form-group .input-location::-ms-input-placeholder {
+.miraero-mainBan-cont form .form-group .input-location::-ms-input-placeholder {
   color: #524552;
 }
 
-.main-banner-content form .form-group .input-location::placeholder {
+.miraero-mainBan-cont form .form-group .input-location::placeholder {
   color: #524552;
 }
 
-.main-banner-content form .form-group i {
+.miraero-mainBan-cont form .form-group i {
   color: #ff5d22;
   font-size: 25px;
   position: absolute;
@@ -1231,7 +1231,7 @@ Main Banner Area CSS
   left: 25px;
 }
 
-.main-banner-content form .default-btn {
+.miraero-mainBan-cont form .default-btn {
   height: 55px;
   line-height: 55px;
   position: absolute;
@@ -1241,15 +1241,15 @@ Main Banner Area CSS
   padding-bottom: 0;
 }
 
-.main-banner-content form .default-btn i {
+.miraero-mainBan-cont form .default-btn i {
   margin-left: 2px;
 }
 
-.main-banner-content form .default-btn span {
+.miraero-mainBan-cont form .default-btn span {
   background-color: #ffffff;
 }
 
-.main-banner-content form .default-btn:hover {
+.miraero-mainBan-cont form .default-btn:hover {
   color: #ff5d22;
 }
 

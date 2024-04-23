@@ -8,7 +8,7 @@ class Banner extends Component {
                     <div className="d-table">
                         <div className="d-table-cell">
                             <div className="container">
-                                <div className="main-banner-content">
+                                <div className="miraero-mainBan-cont">
                                     <h1>Professional, Creative, Scalable Workspace Solutions</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
 

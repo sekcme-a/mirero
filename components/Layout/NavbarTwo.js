@@ -36,8 +36,8 @@ class NavbarTwo extends Component {
 
         return (
             <>
-                <div id="navbar" className="navbar-area navbar-style-two">
-                    <div className="tuam-nav">
+                <div id="navbar" className="miraero-navbar-zone navbar-style-two">
+                    <div className="miraeroNavigation">
                         <div className="container-fluid">
                             <nav className="navbar navbar-expand-md navbar-light">
                                 <Link legacyBehavior  href="/">

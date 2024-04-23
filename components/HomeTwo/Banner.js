@@ -26,7 +26,7 @@ const Banner = () => {
                             <div className="d-table">
                                 <div className="d-table-cell">
                                     <div className="container">
-                                        <div className="main-banner-content">
+                                        <div className="miraero-mainBan-cont">
                                             <span className="sub-title">The Best Workspace in New York</span>
                                             <h1>Professional, Creative, Flexible, Scalable Workspace</h1>
 
@@ -56,7 +56,7 @@ const Banner = () => {
                             <div className="d-table">
                                 <div className="d-table-cell">
                                     <div className="container">
-                                        <div className="main-banner-content">
+                                        <div className="miraero-mainBan-cont">
                                             <span className="sub-title">The Best Workspace in New York</span>
                                             <h1>Professional, Creative, Flexible, Scalable Workspace</h1>
 
@@ -86,7 +86,7 @@ const Banner = () => {
                             <div className="d-table">
                                 <div className="d-table-cell">
                                     <div className="container">
-                                        <div className="main-banner-content">
+                                        <div className="miraero-mainBan-cont">
                                             <span className="sub-title">The Best Workspace in New York</span>
                                             <h1>Professional, Creative, Flexible, Scalable Workspace</h1>
 
